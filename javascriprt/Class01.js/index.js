@@ -520,6 +520,113 @@
 //         console.log("failed student")
 // }
 
-let num = 6;
-let result = num % 2 === 0 ? "Even" : "Odd";
-console.log(result);
+// let num = 6;
+// let result = num % 2 === 0 ? "Even" : "Odd";
+// console.log(result);
+
+// 06] Ternary Operator
+
+// let age = 20;
+// let eligibility = age >= 18 ? "Eligible to vote" : "Not eligible to vote";
+// console.log(eligibility);
+
+
+// let marks = 1;
+// let grade = marks >= 90 ? "A" : marks >= 75 ? "B" : marks >= 60 ? "C" : marks >= 35 ? "D" : "F";
+// console.log(`Grade: ${grade}`);
+
+
+// let number = 10;
+// let result = number > 0 ? "Positive" : number < 0 ? "Negative" : "Zero";
+// console.log(result);
+
+// let isLoggedIn = false;
+
+// let userStatus = isLoggedIn ? "Logged in" : "Not logged in";
+// console.log(userStatus);
+
+// let marks = 35;
+// let result = marks > 35 ? "Pass": marks==35 ? "Just Passed" : "Fail";
+// console.log(result);
+
+// let num1 = 40000;
+// let num2 = 80000;
+// let min = num1 < num2 ? num1: num2;
+// console.log(min);
+
+// for (let i = 1; i <= 199; i++) {
+//     console.log(`Pratham Patil : ${i}`);
+// }
+
+// for (let i = 10000000; i > 1; i--) {
+//     console.log(i);
+// }
+
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
+// }
+
+// for (let i=2; i<=20; i+=2){
+//     console.log(i);
+// }
+
+// for (let i=9; i<=90; i+=9){
+//     console.log(i);
+// }
+
+
+// let sum=0;
+// for (let i=10; i<=55; i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+// let multiplicationTable = 1;
+
+// for (let i = 1; i <= 10; i++) {
+//    multiplicationTable*= i;
+// }console.log(`Multiplication Table of ${multiplicationTable}:`);
+    
+// let bag=""
+// for (i=1; i<=5; i++){
+//     bag += i + " ";
+// }
+// console.log(bag);
+
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log("*");
+// }
+// let bag=""
+// for (i=1; i<=5; i++){
+//     bag += "* " ;
+// }
+// console.log(bag);
+
+
+// let array = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i <= array.length - 1; i++) {
+//     console.log(array[i]**2);
+// }
+
+// let str="CodingGita";
+// for (let i=0; i<=str.length-1; i++){
+//     console.log(str[i]);
+// }
+
+// let str="CodingGita";
+// for (let i=0; i<=str.length-1; i++){
+//     console.log(str[i]);
+//     if (str[i]==="g"){
+//         break;
+//     }
+// }
+
+let str="CodingGita";
+for (let i=0; i<=str.length-1; i++){
+    if (str[i]==="  "){
+        continue;
+    }console.log(str[i]);
+}
