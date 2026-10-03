@@ -624,9 +624,28 @@
 //     }
 // }
 
-let str="CodingGita";
-for (let i=0; i<=str.length-1; i++){
-    if (str[i]==="  "){
-        continue;
-    }console.log(str[i]);
-}
+// let str="CodingGita";
+// for (let i=0; i<=str.length-1; i++){
+//     if (str[i]==="  "){
+//         continue;
+//     }console.log(str[i]);
+// }
+
+// Print numbers from 1 to 30. Stop the loop as soon as you find a number that is divisible by both 3 and 7.
+// for(let i=1; i<=30; i++){
+//     if(i%3===0 && i%7===0){
+//         console.log(`Found a number divisible by both 3 and 7: ${i}`);
+//         break;
+//     }
+// }
+        // Print numbers from 1 to 25, but skip all numbers that are perfect squares (1, 4, 9, 16, 25).
+
+// for(let i=1; i<=25; i++){
+//     let sqrt = Math.sqrt(i);
+//     if(sqrt === Math.floor(sqrt)){
+//         continue; // Skip perfect squares
+//     }
+//     console.log(i);
+// }
+
+
