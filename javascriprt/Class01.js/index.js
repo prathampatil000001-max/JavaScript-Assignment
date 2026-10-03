@@ -649,3 +649,39 @@
 // }
 
 
+// Print all even numbers from 20 down to 2 using a reverse for loop.
+for (let i=20; i>=2; i--){
+    if(i%2==0){
+        console.log(i);
+    }
+}
+// Print the multiplication table of 8 in reverse (from 8 × 10 = 80 down to 8 × 1 = 8).
+for (let i=10; i>=1; i--){
+    console.log(`8 x ${i} = ${8*i}`);
+}
+// Given an array [10, 20, 30, 40, 50], print all elements in reverse order (do not use .reverse()).
+let array = [10, 20, 30, 40, 50];
+for (let i = array.length - 1; i >= 0; i--) {   
+    console.log(array[i]);
+}
+// Given a string "CodingGita", print each character using a for loop.
+let str = "CodingGita";
+let bag = "";
+for (let i = 0; i < str.length; i++) {
+    bag += str[i] + "       ";
+}
+console.log(bag); 
+
+// *
+// **
+// ***
+// ****
+// *****
+let rows = 5;
+for (let i = 1; i <= rows; i++) {
+    let bag = "";
+    for (let j = 1; j <= i; j++) {
+        bag += "*";
+    }
+    console.log(bag);
+}
