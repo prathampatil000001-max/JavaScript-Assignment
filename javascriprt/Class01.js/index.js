@@ -796,3 +796,4 @@ for (var i = 0; i < marks.length; i++) {
 
     console.log("Student " + (i+1) + " average: " + avg);
 }
+
