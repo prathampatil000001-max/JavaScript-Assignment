@@ -650,38 +650,149 @@
 
 
 // Print all even numbers from 20 down to 2 using a reverse for loop.
-for (let i=20; i>=2; i--){
-    if(i%2==0){
-        console.log(i);
-    }
-}
+// for (let i=20; i>=2; i--){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
 // Print the multiplication table of 8 in reverse (from 8 × 10 = 80 down to 8 × 1 = 8).
-for (let i=10; i>=1; i--){
-    console.log(`8 x ${i} = ${8*i}`);
-}
+// for (let i=10; i>=1; i--){
+//     console.log(`8 x ${i} = ${8*i}`);
+// }
 // Given an array [10, 20, 30, 40, 50], print all elements in reverse order (do not use .reverse()).
-let array = [10, 20, 30, 40, 50];
-for (let i = array.length - 1; i >= 0; i--) {   
-    console.log(array[i]);
-}
+// let array = [10, 20, 30, 40, 50];
+// for (let i = array.length - 1; i >= 0; i--) {   
+//     console.log(array[i]);
+// }
 // Given a string "CodingGita", print each character using a for loop.
-let str = "CodingGita";
-let bag = "";
-for (let i = 0; i < str.length; i++) {
-    bag += str[i] + "       ";
-}
-console.log(bag); 
+// let str = "CodingGita";
+// let bag = "";
+// for (let i = 0; i < str.length; i++) {
+//     bag += str[i] + "       ";
+// }
+// console.log(bag); 
 
 // *
 // **
 // ***
 // ****
 // *****
-let rows = 5;
-for (let i = 1; i <= rows; i++) {
-    let bag = "";
-    for (let j = 1; j <= i; j++) {
-        bag += "*";
-    }
-    console.log(bag);
+// let rows = 5;
+// for (let i = 1; i <= rows; i++) {
+//     let bag = "";
+//     for (let j = 1; j <= i; j++) {
+//         bag += "*";
+//     }
+//     console.log(bag);
+// }
+// const percentage = function(marks, total) {
+//     return (marks / total) * 100;
+// };
+
+// console.log(percentage(85, 100));
+// function area(length, width) {
+//     return length * width;
+// }
+
+// console.log(area(10, 5));
+// function average(a, b, c) {
+//     return (a + b + c) / 3;
+// }
+
+// console.log(average(85, 92, 78)); // For Jenil
+// console.log(average(70, 60, 80)); // For Mahir
+
+// let batch = "CSE";
+
+// function printBatch() {
+//     console.log(batch);
+// }
+
+// printBatch(); // CSE
+// function analyzeStudent(name, m1, m2, m3) {
+//     const total = m1 + m2 + m3;
+//     const avg = total / 3;
+
+//     return name + " scored total " + total + " with average " + avg;
+// }
+
+// console.log(analyzeStudent("Yashvi", 85, 90, 92));
+// console.log(analyzeStudent("Arjun", 70, 75, 80));
+// function studentReport(name, s1, s2, s3) {
+    
+//     function total(a, b, c) {
+//         return a + b + c;
+//     }
+
+//     const t = total(s1, s2, s3);
+//     return name + " total marks: " + t;
+// }
+
+// console.log(studentReport("Krishna", 75, 88, 92));
+
+
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+  sum = sum + i;
+}
+console.log("Sum is: " + sum);
+// Output: Sum is: 55
+for (let i = 1; i <= 10; i++) {
+  console.log("5 × " + i + " = " + (5 * i));
+}
+for (let i = 2; i <= 20; i = i + 2) {
+  console.log( "2 × " + i + " = " + (2 * i));
+
+
+}
+let str = "Hello";
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i]);
+}
+
+let  students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
+
+for (let i = 0; i < students.length; i++) {
+    console.log(students[i]);
+}
+
+var i = 0;
+while (i < students.length) {
+    console.log(students[i]);
+    i++;
+}
+
+var nums = [1, 2, 3];
+nums.push(4);
+
+console.log(nums); // [1, 2, 3, 4]
+
+var num = [1,2,3,4]
+nums.unshift(0);
+console.log(nums); // [0, 1, 2, 3, 4]
+
+var nums = [1,2,3,4]
+nums.shift()
+console.log(nums)
+
+var matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+
+console.log(matrix[2][1]); // 6
+
+var marks = [
+    [85, 90, 92], // Jenil
+    [70, 75, 80], // Arjun
+    [88, 82, 89]  // Krishna
+];
+
+for (var i = 0; i < marks.length; i++) {
+    var studentMarks = marks[i];
+    var total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+    var avg = total / 3;
+
+    console.log("Student " + (i+1) + " average: " + avg);
 }
