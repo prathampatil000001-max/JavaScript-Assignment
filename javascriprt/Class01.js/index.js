@@ -814,4 +814,25 @@ if (age < 13) {
 } else {
   console.log("Senior");
 }
+let username = "admin";
+let password = "1234";
+
+if (username === "admin") {
+  if (password === "1234") {
+    console.log("Login Successful");
+  } else {
+    console.log("Wrong Password");
+  }
+}
+
+let Age = 20;
+let passedTest = true;
+
+if (age >= 18) {
+  if (passedTest) {
+    console.log("Eligible for License");
+  } else {
+    console.log("Pass the test first");
+  }
+}
 
