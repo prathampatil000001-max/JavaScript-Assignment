@@ -797,3 +797,21 @@ for (var i = 0; i < marks.length; i++) {
     console.log("Student " + (i+1) + " average: " + avg);
 }
 
+let marks = 42;
+
+if (marks >= 35) {
+  console.log("Passed");
+}
+
+let age = 25;
+
+if (age < 13) {
+  console.log("Child");
+} else if (age < 20) {
+  console.log("Teenager");
+} else if (age < 60) {
+  console.log("Adult");
+} else {
+  console.log("Senior");
+}
+

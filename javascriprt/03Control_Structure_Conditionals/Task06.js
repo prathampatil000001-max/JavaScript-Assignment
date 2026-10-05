@@ -49,48 +49,48 @@
 
 
 // 01) Check whether a number is divisible by 7
-let num1 = 21;
+// let num1 = 21;
 
-let result1 = (num1 % 7 === 0)
-    ? "Divisible by 7"
-    : "Not Divisible by 7";
+// let result1 = (num1 % 7 === 0)
+//     ? "Divisible by 7"
+//     : "Not Divisible by 7";
 
-console.log(result1);
-
-
-// 02) Check temperature
-let temperature = 35;
-
-let result2 = (temperature >= 30)
-    ? "Hot Day"
-    : "Pleasant Day";
-
-console.log(result2);
+// console.log(result1);
 
 
-// 03) Check if a string is empty
-let text = "";
+// // 02) Check temperature
+// let temperature = 35;
 
-let result3 = (text === "")
-    ? "Empty String"
-    : "String has content";
+// let result2 = (temperature >= 30)
+//     ? "Hot Day"
+//     : "Pleasant Day";
 
-console.log(result3);
-
-
-// 04) Classify person's age using nested ternary
-let age = 17;
-
-let result4 = (age < 13)
-    ? "Child"
-    : (age <= 19)
-        ? "Teenager"
-        : "Adult";
-
-console.log(result4);
+// console.log(result2);
 
 
-// 05) Find greater of three numbers
+// // 03) Check if a string is empty
+// let text = "";
+
+// let result3 = (text === "")
+//     ? "Empty String"
+//     : "String has content";
+
+// console.log(result3);
+
+
+// // 04) Classify person's age using nested ternary
+// let age = 17;
+
+// let result4 = (age < 13)
+//     ? "Child"
+//     : (age <= 19)
+//         ? "Teenager"
+//         : "Adult";
+
+// console.log(result4);
+
+
+// // 05) Find greater of three numbers
 let a = 25;
 let b = 40;
 let c = 30;
@@ -99,10 +99,10 @@ let greater = (a > b)
     ? ((a > c) ? a : c)
     : ((b > c) ? b : c);
 
-console.log("Greater Number:", greater);
+// console.log("Greater Number:", greater);
 
 
-// 06) Classify student's marks
+// // 06) Classify student's marks
 let marks = 68;
 
 let result6 = (marks >= 75)
@@ -118,7 +118,7 @@ let result6 = (marks >= 75)
 console.log(result6);
 
 
-// 07) Check positive/negative and even/odd
+// // 07) Check positive/negative and even/odd
 let num7 = -8;
 
 let result7 = (num7 === 0)
@@ -134,7 +134,7 @@ let result7 = (num7 === 0)
 console.log(result7);
 
 
-// 08) Check leap year using nested ternary
+// // 08) Check leap year using nested ternary
 let year = 2024;
 
 let result8 = (year % 4 === 0)
@@ -146,7 +146,7 @@ let result8 = (year % 4 === 0)
 console.log(result8);
 
 
-// 09) Role and action decision tree
+// // 09) Role and action decision tree
 let role = "admin";
 let action = "delete";
 
@@ -165,7 +165,7 @@ let result9 = (role === "admin")
 console.log(result9);
 
 
-// 10) Calculate discount and final amount
+// // 10) Calculate discount and final amount
 let cartTotal = 3500;
 
 let discountPercentage = cartTotal >= 5000
@@ -183,3 +183,5 @@ let result10 = {
 
 console.log("Discount:", result10.discountPercentage + "%");
 console.log("Final Amount: ₹" + result10.finalAmount);
+
+
