@@ -64,3 +64,29 @@ for (let i = startingValue; i >= endingValue; i--) {
 for (let i = 5; i >= 1; i--) {
   console.log(i);
 }
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    console.log(i + " × " + j + " = " + (i * j));
+  }
+}
+
+for (let i = 1; i <= rows; i++) {
+  for (let j = 1; j <= columns; j++) {
+    // code
+  }
+}
+
+for (let i = 1; i <= 5; i++) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row = row + "* ";
+  }
+  console.log(row);
+}
+for (let i = 1; i <= 5; i++) {
+  let row = "";
+  for (let j = 1; j <= i; j++) {
+    row = row + j + " ";
+  }
+  console.log(row);
+}
