@@ -731,123 +731,139 @@
 // console.log(studentReport("Krishna", 75, 88, 92));
 
 
-let sum = 0;
-for (let i = 1; i <= 10; i++) {
-  sum = sum + i;
-}
-console.log("Sum is: " + sum);
-// Output: Sum is: 55
-for (let i = 1; i <= 10; i++) {
-  console.log("5 × " + i + " = " + (5 * i));
-}
-for (let i = 2; i <= 20; i = i + 2) {
-  console.log( "2 × " + i + " = " + (2 * i));
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//   sum = sum + i;
+// }
+// console.log("Sum is: " + sum);
+// // Output: Sum is: 55
+// for (let i = 1; i <= 10; i++) {
+//   console.log("5 × " + i + " = " + (5 * i));
+// }
+// for (let i = 2; i <= 20; i = i + 2) {
+//   console.log( "2 × " + i + " = " + (2 * i));
 
 
-}
-let str = "Hello";
-for (let i = 0; i < str.length; i++) {
-  console.log(str[i]);
-}
+// }
+// let str = "Hello";
+// for (let i = 0; i < str.length; i++) {
+//   console.log(str[i]);
+// }
 
-let  students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
+// let  students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
 
-for (let i = 0; i < students.length; i++) {
-    console.log(students[i]);
-}
+// for (let i = 0; i < students.length; i++) {
+//     console.log(students[i]);
+// }
 
-var i = 0;
-while (i < students.length) {
-    console.log(students[i]);
-    i++;
-}
+// var i = 0;
+// while (i < students.length) {
+//     console.log(students[i]);
+//     i++;
+// }
 
-var nums = [1, 2, 3];
-nums.push(4);
+// var nums = [1, 2, 3];
+// nums.push(4);
 
-console.log(nums); // [1, 2, 3, 4]
+// console.log(nums); // [1, 2, 3, 4]
 
-var num = [1,2,3,4]
-nums.unshift(0);
-console.log(nums); // [0, 1, 2, 3, 4]
+// var num = [1,2,3,4]
+// nums.unshift(0);
+// console.log(nums); // [0, 1, 2, 3, 4]
 
-var nums = [1,2,3,4]
-nums.shift()
-console.log(nums)
+// var nums = [1,2,3,4]
+// nums.shift()
+// console.log(nums)
 
-var matrix = [
-    [1, 2],
-    [3, 4],
-    [5, 6]
-];
+// var matrix = [
+//     [1, 2],
+//     [3, 4],
+//     [5, 6]
+// ];
 
-console.log(matrix[2][1]); // 6
+// console.log(matrix[2][1]); // 6
 
-var marks = [
-    [85, 90, 92], // Jenil
-    [70, 75, 80], // Arjun
-    [88, 82, 89]  // Krishna
-];
+// var marks = [
+//     [85, 90, 92], // Jenil
+//     [70, 75, 80], // Arjun
+//     [88, 82, 89]  // Krishna
+// ];
 
-for (var i = 0; i < marks.length; i++) {
-    var studentMarks = marks[i];
-    var total = studentMarks[0] + studentMarks[1] + studentMarks[2];
-    var avg = total / 3;
+// for (var i = 0; i < marks.length; i++) {
+//     var studentMarks = marks[i];
+//     var total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+//     var avg = total / 3;
 
-    console.log("Student " + (i+1) + " average: " + avg);
-}
+//     console.log("Student " + (i+1) + " average: " + avg);
+// }
 
-let marks = 42;
+// let marks = 42;
 
-if (marks >= 35) {
-  console.log("Passed");
-}
+// if (marks >= 35) {
+//   console.log("Passed");
+// }
 
-let age = 25;
+// let age = 25;
 
-if (age < 13) {
-  console.log("Child");
-} else if (age < 20) {
-  console.log("Teenager");
-} else if (age < 60) {
-  console.log("Adult");
-} else {
-  console.log("Senior");
-}
-let username = "admin";
-let password = "1234";
+// if (age < 13) {
+//   console.log("Child");
+// } else if (age < 20) {
+//   console.log("Teenager");
+// } else if (age < 60) {
+//   console.log("Adult");
+// } else {
+//   console.log("Senior");
+// }
+// let username = "admin";
+// let password = "1234";
 
-if (username === "admin") {
-  if (password === "1234") {
-    console.log("Login Successful");
-  } else {
-    console.log("Wrong Password");
-  }
-}
+// if (username === "admin") {
+//   if (password === "1234") {
+//     console.log("Login Successful");
+//   } else {
+//     console.log("Wrong Password");
+//   }
+// }
 
-let Age = 20;
-let passedTest = true;
+// let Age = 20;
+// let passedTest = true;
 
-if (age >= 18) {
-  if (passedTest) {
-    console.log("Eligible for License");
-  } else {
-    console.log("Pass the test first");
-  }
-}
-let day = 3;
+// if (age >= 18) {
+//   if (passedTest) {
+//     console.log("Eligible for License");
+//   } else {
+//     console.log("Pass the test first");
+//   }
+// }
+// let day = 3;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  default:
-    console.log("Invalid day");
-}
-
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) break;
+//   console.log(i);
+// }
+// // Output: 1 2 3 4
+// for (let i = 1; i <= 20; i++) {
+//   if (i === 13) {
+//     console.log("Stopped at 13");
+//     break;
+//   }
+//   console.log(i);
+// }
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) continue;   // skip even numbers
+//   console.log(i);
+// }
+// Output: 1 3 5 7 9
