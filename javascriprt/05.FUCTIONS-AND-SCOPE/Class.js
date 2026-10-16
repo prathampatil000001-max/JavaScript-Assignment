@@ -235,3 +235,160 @@ function sumOfThree(a, b, c) {
 }
 
 console.log(sumOfThree(10, 20, 30));
+
+// Write a function averageOfTwo(x, y) that returns the average of two numbers. Call it with 50 and 70.
+function averageOfTwo(x, y) {
+    return (x + y) / 2;
+}
+
+console.log(averageOfTwo(50, 70));
+// Write a function reportCard(name, m1, m2) that returns the student’s name, total, and average.
+
+
+// unction reportCard(name, m1, m2) {
+//     let total = m1 + m2;
+//     let average = total / 2;
+
+//     return {
+//         name: name,
+//         total: total,
+//         average: average
+//     };
+// }
+
+// console.log(reportCard("Rahul", 80, 90));
+
+function showMarks() {
+    let marks = 90;
+    console.log(marks);
+}
+
+showMarks();
+console.log(showMark); // Error: marks is not defined
+
+let batch = "CSE";
+
+function printBatch() {
+    console.log(batch);
+}
+
+printBatch(); // CSE
+
+
+// Write a function checkPass(avg) that returns "Pass" if average ≥ 40, otherwise "Fail".
+function checkPass(avg) {
+    if (avg >= 40) {
+        return "Pass";
+    } else {
+        return "Fail";
+    }
+}
+
+console.log(checkPass(60)); // Pass
+console.log(checkPass(30)); // Fail
+
+
+// Write a function reportCard(name, m1, m2) that returns the student’s name, total, and average.
+
+function reportCard(name, m1, m2) {
+    let total = m1 + m2;
+    let average = total / 2;
+
+    return {
+        name: name,
+        total: total,
+        average: average
+    };
+}
+
+console.log(reportCard("Rahul", 80, 90));
+
+
+function print(){
+  let age =20;
+   
+  console.log(print)
+
+};
+print();
+
+let x=10;
+function myFunc(){
+    console.log(x);
+
+}myFunc()
+
+// Write a function main that contains another function helper which returns "Helper function called". Call helper from inside main and return its result.
+
+function main() {
+    function helper() {
+        return "Helper function called";
+    }
+
+    return helper();
+};
+console.log(main());
+
+// function studentReport(name,m1,m2,m3){
+
+//     function findTotal(m1,m2,m3){
+//     let total=m1,m2,m3;
+
+//     }}
+
+//     function main() {
+//     function helper() {
+//         return "Helper function called";
+//     }
+
+//     return helper();
+// }
+
+function processMarks(m1, m2) {
+    function sum() {
+        return m1 + m2;
+    }
+
+    return sum();
+};
+console.log(processMarks(80, 90)); // 170
+
+function calculateDimension(radius) {
+    function findArea() {
+        return Math.PI * radius * radius;
+    }
+
+    function findPerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    return {
+        area: findArea(),
+        perimeter: findPerimeter()
+    };
+}
+
+console.log(calculateDimension(2));
+
+// Scope in JavaScript
+// 1. What Is Scope?
+// Scope defines where a variable can be accessed in a program.
+
+// In Unit 1, JavaScript has only two types of scope for us:
+
+// Global Scope
+// Function Scope
+// (Because var does not support block scope.)
+
+// 2. Global Scope
+// A variable declared outside any function is in the global scope and can be accessed anywhere.
+
+// Example:
+var college = "CodingGita";
+
+function showCollege() {
+    console.log(college);
+}
+
+showCollege();       // CodingGita
+console.log(college); // CodingGita
