@@ -449,3 +449,34 @@ if (true) {
     var k = 20;
 }
 console.log(x); // 20
+
+function processStudent(name, m1, m2, m3) {
+     function calculateMarks() {
+         let total = m1 + m2 + m3;
+         let average = total / 3;
+         return { total, average };
+     }
+     let result = calculateMarks();
+     let status = (m1 >= 33 && m2 >= 33 && m3 >= 33)
+         ? "Pass" : "Fail";
+     return `Name: ${name}
+ Total: ${result.total}
+ Average: ${result.average.toFixed(2)}
+ Result: ${status}
+ -------------------`;
+ }
+ console.log(processStudent("Rahul", 80, 70, 90));
+ console.log(processStudent("Amit", 60, 75, 85));
+ console.log(processStudent("Ravi", 25, 50, 60));
+
+ function compareAverages(avg1, avg2) {
+     if (avg1 > avg2) {
+        return "First student has higher average";
+    } else if (avg2 > avg1) {
+        return "Second student has higher average";
+    } else {
+        return "Both averages are equal";
+     }
+}
+
+ console.log(compareAverages(80, 15));
