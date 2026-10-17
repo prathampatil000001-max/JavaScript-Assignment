@@ -435,3 +435,17 @@ function outer() {
 }
 
 outer();
+
+// Inside inner() you can access both variables:
+
+// student (local)
+// teacher (outer function)
+// But from outside:
+
+// teacher is not available
+// student is not available
+
+if (true) {
+    var k = 20;
+}
+console.log(x); // 20
