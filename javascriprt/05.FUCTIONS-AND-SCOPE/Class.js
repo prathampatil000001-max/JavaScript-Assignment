@@ -392,3 +392,32 @@ function showCollege() {
 
 showCollege();       // CodingGita
 console.log(college); // CodingGita
+
+function test() {
+    for (var i = 1; i <= 3; i++) {
+        console.log("Inside:", i);
+    }
+
+    console.log("After loop inside function:", i);
+}
+
+test();
+console.log(i); // Error
+
+var institute = "CodingGita";
+
+function department() {
+    var dept = "CSE";
+
+    function batchInfo() {
+        var batch = "2025";
+
+        console.log(batch);     // 2025
+        console.log(dept);      // CSE
+        console.log(institute); // CodingGita
+    }
+
+    batchInfo();
+}
+
+department();
