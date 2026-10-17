@@ -421,3 +421,17 @@ function department() {
 }
 
 department();
+
+function outer() {
+    var teacher = "Kartik Sir";
+
+    function inner() {
+        var student = "Jenil";
+        console.log(student);
+        console.log(teacher);
+    }
+
+    inner();
+}
+
+outer();
