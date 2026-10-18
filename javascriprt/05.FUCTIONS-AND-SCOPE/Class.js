@@ -504,4 +504,46 @@ function generatedReport(name, m1, m2, m3) {
 console.log(generatedReport("Rahul", 70, 60, 80));
 
 
+function generatedReport(name, m1, m2, m3) {
+
+    function getTotal() {
+        return m1 + m2 + m3;
+    }
+
+    function getAverage() {
+        return getTotal() / 3;
+    }
+
+    function getResult() {
+        if (m1 >= 40 && m2 >= 40 && m3 >= 40) {
+            return "Pass";
+        } else {
+            return "Fail";
+        }
+    }
+
+    function report() {
+        return {
+            studentName: name,
+            total: getTotal(),
+            average: getAverage(),
+            result: getResult()
+        };
+    }
+
+    return report();
+}
+
+console.log(generatedReport("Rahul", 70, 60, 80));
+
+
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
 
