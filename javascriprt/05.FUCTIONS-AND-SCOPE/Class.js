@@ -552,3 +552,20 @@ if (true) {
 }
 console.log(x);
 
+// 14. Multiple Choice Questions
+// Q1. Which type of scope does var have?
+// Block scope
+// Function scope
+// Lexical scope
+// Module scope
+
+function example() {
+    if (true) {
+        var x = 10;
+    }
+
+    console.log(x); // 10
+}
+
+example();
+
