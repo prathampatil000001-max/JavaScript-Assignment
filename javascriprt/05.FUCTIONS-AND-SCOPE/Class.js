@@ -582,3 +582,16 @@ console.log(a); // undefined
 
 a = 5;
 
+// Q3. Variables inside a function are:
+// Global
+// Available everywhere
+// Local to the function
+// Hoisted globally
+// Answer: 3
+
+function greet() {
+    var message = "Hello, World!";
+    console.log(message);
+}
+
+greet(); 
