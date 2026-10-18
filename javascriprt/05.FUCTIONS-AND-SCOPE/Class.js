@@ -569,3 +569,16 @@ function example() {
 
 example();
 
+// Q2. What is the output?
+// console.log(a);
+// var a = 5;
+// Error
+// undefined
+// 5
+// null
+var a;
+
+console.log(a); // undefined
+
+a = 5;
+
