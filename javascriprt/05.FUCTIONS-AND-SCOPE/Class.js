@@ -595,3 +595,29 @@ function greet() {
 }
 
 greet(); 
+
+
+// 1Q4. What is the scope chain?
+// Searching nested scopes outward
+// Chain of events
+// Chain of functions
+// Loop control
+// Answer: 
+let a = 10; // Global scope
+
+function outer() {
+    let b = 20; // Outer function scope
+
+    function inner() {
+        let c = 30; // Inner function scope
+
+        console.log(c); // 30
+        console.log(b); // 20
+        console.log(a); // 10
+    }
+
+    inner();
+}
+
+outer();
+
