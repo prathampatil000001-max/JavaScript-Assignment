@@ -597,3 +597,8 @@ function studentInfo() {
 }
 
 studentInfo();
+
+if (true) {
+    var x = 30;
+}
+console.log(x);
