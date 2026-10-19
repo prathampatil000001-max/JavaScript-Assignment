@@ -69,6 +69,7 @@ if (age >= 18) {
 }
 
 
+
 // 3. Check student marks
 let marks = 85;
 

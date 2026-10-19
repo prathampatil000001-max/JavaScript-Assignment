@@ -573,3 +573,27 @@ console.log(compareAverages(80, 80));
 // Second average is higher.
 // First average is higher.
 // Both averages are equal.
+
+// 15. Mini Assignment
+// Create a function studentInfo() that:
+
+// Defines a local variable name
+// Defines a local variable course
+// Defines an inner function display()
+// The inner function prints both variables
+// Call the inner function from the outer function
+// This exercise shows function scope, nested scope, and scope chain.
+
+function studentInfo() {
+    let name = "Rahul";
+    let course = "JavaScript";
+
+    function display() {
+        console.log("Name: " + name);
+        console.log("Course: " + course);
+    }
+
+    display();
+}
+
+studentInfo();

@@ -867,3 +867,31 @@
 //   console.log(i);
 // }
 // Output: 1 3 5 7 9
+
+// let i=5;
+// while(i>=1){
+//     console.log(i)
+//     i--;
+// }
+
+// let i=1;
+// let sum=0;
+// while(i<=10){
+//     sum+=i;
+//     i++;
+// }console.log(sum)
+
+let num = 1234;
+let rev = 0;
+
+while (num > 0) {
+    let digit = num % 10;
+    rev = rev * 10 + digit;
+    num = Math.floor(num / 10);
+}
+
+console.log(rev);
+
+
+
+
