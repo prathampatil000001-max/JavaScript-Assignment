@@ -171,7 +171,7 @@ console.log(greetStudent("Priya"));
 // 3. Hoisting
 // Hoisting is JavaScript's behavior of making function declarations available before their position in the code.
 
-javascript
+// javascript
 greet();
 
 function greet() {
@@ -184,7 +184,7 @@ function greet() {
 // Explanation: A function declaration can be called before it appears in the code because JavaScript processes function declarations before executing the code.
 
 // 4. Function Expression
-javascript
+// javascript
 const calculateAverage = function(a, b, c) {
     return (a + b + c) / 3;
 };
@@ -201,7 +201,7 @@ console.log(calculateAverage(80, 90, 70));
 
 // Example:
 
-javascript
+// javascript
 function multiply(x, y) {
     return x * y;
 }
@@ -302,14 +302,14 @@ function displayAge() {
     console.log("Age:", age);
 }
 
-function displayCourse() {
-    console.log("Course:", course);
-}
+// function displayCourse() {
+//     console.log("Course:", course);
+// }
 
-displayAge();
-displayCourse();
+// displayAge();
+// displayCourse();
 
-console.log(age);
+// console.log(age);
 // Output before the error:
 
 // text
@@ -602,3 +602,50 @@ if (true) {
     var x = 30;
 }
 console.log(x);
+
+for (let i = 1; i <= 10; i++) {
+  console.log("4 × " + i + " = " + (4 * i));
+}
+for (let i = 2; i <= 20; i = i + 2) {
+  console.log(i);
+}
+
+let str = "Hello";
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i]);
+}
+// Print numbers from 1 to 10 using a for loop.
+for (let i = 2; i <= 10; i++) {
+    console.log(i);
+}
+
+// Print all even numbers from 2 to 20
+
+for (let i = 2; i <= 20; i += 2) {
+    console.log(i);
+}
+
+// Print the multiplication table of 9.
+
+for (let i = 1; i <= 10; i++) {
+    console.log("9 x " + i + " = " + (9 * i));
+}
+
+// Find the sum of first 10 natural numbers
+
+let sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+    sum = sum + i;
+};
+
+console.log("Sum =", sum);
+
+// Find the multiplication (product) of first 10 natural numbers
+let product = 1;
+
+for (let i = 1; i <= 10; i++) {
+    product = product * i;
+}
+
+console.log("Product =", product);
