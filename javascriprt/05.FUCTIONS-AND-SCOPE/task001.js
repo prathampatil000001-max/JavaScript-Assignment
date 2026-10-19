@@ -610,9 +610,9 @@ for (let i = 2; i <= 20; i = i + 2) {
   console.log(i);
 }
 
-let str = "Hello";
-for (let i = 0; i < str.length; i++) {
-  console.log(str[i]);
+let Str = "Hello";
+for (let i = 0; i < Str.length; i++) {
+  console.log(Str[i]);
 }
 // Print numbers from 1 to 10 using a for loop.
 for (let i = 2; i <= 10; i++) {
@@ -649,3 +649,54 @@ for (let i = 1; i <= 10; i++) {
 }
 
 console.log("Product =", product);
+
+// Print numbers 1 to 5 in a single line.
+let output = "";
+
+for (let i = 1; i <= 5; i++) {
+    output = output + i + " ";
+}
+
+console.log(output);
+
+// Print * five times
+// in different lines
+// in the same line
+for (let i = 1; i <= 5; i++) {
+    console.log("*");
+}
+
+// Given an array [10, 20, 30, 40, 50], print all elements using a for loop.
+
+let arr = [10, 20, 30, 40, 50];
+
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+
+// Given a string "CodingGita", print each character using a for loop.
+let str = "CodingGita";
+
+for (let i = 0; i < str.length; i++) {
+    console.log(str[i]);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) break;
+  console.log(i);
+}
+// Output: 1 2 3 4
+
+for (let i = 1; i <= 20; i++) {
+  if (i === 13) {
+    console.log("Stopped at 13");
+    break;
+  }
+  console.log(i);
+};
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}
+// Output: 1 2 4 5
