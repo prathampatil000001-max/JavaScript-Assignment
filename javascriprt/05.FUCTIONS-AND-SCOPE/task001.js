@@ -755,3 +755,7 @@ const Arr = [10, 20, 30, 40, 50];
 for (let i = Arr.length - 1; i >= 0; i--) {
   console.log(Arr[i]);
 }
+
+for (let i = 10; i >= 1; i--) {
+  console.log("7 × " + i + " = " + (7 * i));
+}
