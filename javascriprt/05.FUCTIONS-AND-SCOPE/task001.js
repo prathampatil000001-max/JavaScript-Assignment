@@ -700,3 +700,58 @@ for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
 // Output: 1 2 4 5
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) continue;   // skip even numbers
+  console.log(i);
+}
+// Output: 1 3 5 7 9
+
+// Print numbers from 1 to 20 but stop completely when you reach 13 (break).
+for (let i = 1; i <= 20; i++) {
+    if (i === 13) {
+        break;
+    }
+    console.log(i);
+}
+// Print numbers from 1 to 15 but skip all multiples of 3 (continue).
+for (let i = 1; i <= 15; i++) {
+    if (i === 3) {
+        continue;
+    }
+    console.log(i);
+}
+
+// Print only odd numbers from 1 to 20 using continue.
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        continue;
+    }
+    console.log(i);
+}
+
+// Print numbers from 1 to 30. Stop the loop as soon as you find a number that is divisible by both 3 and 7.
+
+for (let i = 1; i <= 30; i++) {
+    if (i % 3 === 0 && i % 7 === 0) {
+        break;
+    }
+    console.log(i);
+};
+// Print numbers from 1 to 25, but skip all numbers that are perfect squares (1, 4, 9, 16, 25).
+for (let i = 1; i <= 25; i++) {
+    if ([1, 4, 9, 16, 25].includes(i)) {
+        continue;
+    }
+    console.log(i);
+}
+
+for (let i = 5; i >= 1; i--) {
+  console.log(i);
+}
+
+const Arr = [10, 20, 30, 40, 50];
+for (let i = Arr.length - 1; i >= 0; i--) {
+  console.log(Arr[i]);
+}
