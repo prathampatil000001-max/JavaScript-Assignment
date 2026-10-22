@@ -621,3 +621,70 @@ function outer() {
 
 outer();
 
+
+// let fruits = ["Apple", "Mango", "Banana", "Orange", "Grapes"];
+
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+
+// let arr = [5, 10, 15];
+
+// arr.push(20);
+// console.log(arr.push(10));
+// arr.unshift(0);
+// console.log(arr);
+
+// let arr = [100, 200, 300, 400, 500];
+
+// arr.pop();
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+
+// let students = ["Aman", "Rahul", "Priya", "Karan", "Neha"];
+
+// console.log(students.indexOf("Priya"));
+// console.log(students.indexOf("Rohit")); 
+
+let Arr = [10, "Hello", true, null];
+
+for (let i = 0; i < Arr.length; i++) {
+    console.log(typeof Arr[i]);
+}
+
+let arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(arr[1][2]);
+
+let arr2= [
+    [10, 20, 30, 40],
+    [50, 60, 70, 80]
+];
+console.log(arr2[0]);
+
+let marks = [
+    [80, 75, 90],
+    [85, 88, 92],
+    [70, 78, 82]
+];
+console.log(marks[1]);
+
+const arr3= [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+];
+console.log(arr3[2][2]);
+
+let arr4 = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+arr4[1][1] = 100;
+console.log(arr4);
+
