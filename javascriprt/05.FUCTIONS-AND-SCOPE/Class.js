@@ -603,23 +603,23 @@ greet();
 // Chain of functions
 // Loop control
 // Answer: 
-let a = 10; // Global scope
+// let a = 10; // Global scope
 
-function outer() {
-    let b = 20; // Outer function scope
+// function outer() {
+//     let b = 20; // Outer function scope
 
-    function inner() {
-        let c = 30; // Inner function scope
+//     function inner() {
+//         let c = 30; // Inner function scope
 
-        console.log(c); // 30
-        console.log(b); // 20
-        console.log(a); // 10
-    }
+//         console.log(c); // 30
+//         console.log(b); // 20
+//         console.log(a); // 10
+//     }
 
-    inner();
-}
+//     inner();
+// }
 
-outer();
+// outer();
 
 
 // let fruits = ["Apple", "Mango", "Banana", "Orange", "Grapes"];
@@ -648,43 +648,56 @@ outer();
 // console.log(students.indexOf("Priya"));
 // console.log(students.indexOf("Rohit")); 
 
-let Arr = [10, "Hello", true, null];
+// let Arr = [10, "Hello", true, null];
 
-for (let i = 0; i < Arr.length; i++) {
-    console.log(typeof Arr[i]);
+// for (let i = 0; i < Arr.length; i++) {
+//     console.log(typeof Arr[i]);
+// }
+
+// let arr = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+// console.log(arr[1][2]);
+
+// let arr2= [
+//     [10, 20, 30, 40],
+//     [50, 60, 70, 80]
+// ];
+// console.log(arr2[0]);
+
+// let marks = [
+//     [80, 75, 90],
+//     [85, 88, 92],
+//     [70, 78, 82]
+// ];
+// console.log(marks[1]);
+
+// const arr3= [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 90]
+// ];
+// console.log(arr3[2][2]);
+
+// let arr4 = [
+//     [1, 2, 3],
+//     [4, 5, 6]
+// ];
+// arr4[1][1] = 100;
+// console.log(arr4);
+
+// console.log(a); // undefined
+// var a = 10;
+
+// var a;
+// console.log(a); // undefined
+// a = 10;
+
+
+greet();  // Works
+
+function greet() {
+    console.log("Hello students of CodingGita");
 }
-
-let arr = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
-console.log(arr[1][2]);
-
-let arr2= [
-    [10, 20, 30, 40],
-    [50, 60, 70, 80]
-];
-console.log(arr2[0]);
-
-let marks = [
-    [80, 75, 90],
-    [85, 88, 92],
-    [70, 78, 82]
-];
-console.log(marks[1]);
-
-const arr3= [
-    [10, 20, 30],
-    [40, 50, 60],
-    [70, 80, 90]
-];
-console.log(arr3[2][2]);
-
-let arr4 = [
-    [1, 2, 3],
-    [4, 5, 6]
-];
-arr4[1][1] = 100;
-console.log(arr4);
-
