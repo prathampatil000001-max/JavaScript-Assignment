@@ -759,3 +759,26 @@ for (let i = Arr.length - 1; i >= 0; i--) {
 for (let i = 10; i >= 1; i--) {
   console.log("7 × " + i + " = " + (7 * i));
 }
+
+if (true) {
+    var x = 30;
+}
+console.log(x);
+
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
+
+console.log(score);
+var score = 40;
+
+if (true) {
+    var x = 20;
+}
+console.log(x); // 20
