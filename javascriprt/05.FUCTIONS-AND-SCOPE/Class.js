@@ -701,3 +701,16 @@ greet();  // Works
 function greet() {
     console.log("Hello students of CodingGita");
 }
+
+function test() {
+  let age = 25;
+  let city = "Ahmedabad";
+
+  console.log(age);  // 25
+  console.log(city); // Ahmedabad
+}
+
+test();
+
+// console.log(age);  // ReferenceError
+// console.log(city); // ReferenceError

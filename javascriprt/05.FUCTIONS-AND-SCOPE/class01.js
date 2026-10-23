@@ -98,3 +98,10 @@
 
 //var ;- hoisted with undefined//
 //let,const:-hoisted in temprory dead zone//
+
+
+
+let greet=function(){
+  console.log("Good morning!!")
+}
+greet()
