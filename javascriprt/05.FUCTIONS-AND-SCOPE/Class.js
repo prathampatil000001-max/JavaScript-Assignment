@@ -714,3 +714,100 @@ test();
 
 // console.log(age);  // ReferenceError
 // console.log(city); // ReferenceError
+
+
+if (true) {
+  let x = 10;
+  const y = 20;
+  var z = 30;
+
+  console.log(x); // 10
+  console.log(y); // 20
+}
+
+console.log(z); // 30
+// console.log(x); // ReferenceError
+// console.log(y); // ReferenceError
+function example() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+
+  console.log(a); // 1
+  // console.log(b); // Error
+  // console.log(c); // Error
+}
+
+example();
+
+
+var score = 50;
+
+function test() {
+    var score = 90; // local shadows global
+    console.log(score); // 90
+}
+
+test();
+console.log(score); // 50
+
+// let score = 50;
+
+// function test() {
+//     let score = 90; // local shadows global
+//     console.log(score); // 90
+// }
+
+// test();
+// console.log(score); // 50
+
+
+// const score = 50;
+
+// function test() {
+//     const score = 90; // local shadows global
+//     console.log(score); // 90
+// }
+
+// test();
+// console.log(score); // 50
+
+function outer() {
+  let a = 10;
+
+  function inner() {
+    let b = 20;
+
+    console.log(a); // 10
+    console.log(b); // 20
+  }
+
+  inner();
+  console.log(a); // 10
+  // console.log(b); // ReferenceError
+}
+
+outer();
+
+// Samjho:
+// outer() ke andar a declare hai.
+// inner() ke andar b declare hai.
+// Inner function, outer function ka variable access kar sakta hai.
+// Outer function, inner function ka local variable access nahi kar sakta.
+function outer() {
+  var a = 1;
+  let b = 2;
+  const c = 3;
+
+  function inner() {
+    console.log(a); // 1
+    console.log(b); // 2
+    console.log(c); // 3
+  }
+
+  inner();
+}
+
+outer();
