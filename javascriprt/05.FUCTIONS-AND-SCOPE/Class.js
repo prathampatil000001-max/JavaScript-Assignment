@@ -811,3 +811,95 @@ function outer() {
 }
 
 outer();
+
+function outer() {
+  function inner() {
+    if (true) {
+      var a = 10;
+      let b = 20;
+      const c = 30;
+    }
+
+    console.log(a); // 10
+    // console.log(b); // ReferenceError
+    // console.log(c); // ReferenceError
+  }
+
+  inner();
+}
+
+outer();
+
+// Yahan:
+// var a → inner() ke function scope mein hai.
+// let b aur const c → sirf if block mein accessible hain.
+
+// var a = 5;
+
+// function demo() {
+//     var a = 10;
+//     console.log(a);
+// }
+
+// demo();
+// console.log(a);
+
+// console.log(a);{
+// var a = 10;
+//   console.log(a)}
+
+
+
+// if (true) {
+//     var x = 20;
+// }
+// console.log(x); // 20
+
+if (true) {
+    var x = 30;
+}
+console.log(x);
+
+for (var counter = 1; counter <= 5; counter++) {
+    console.log(counter);
+}
+console.log(counter); // should be error
+
+console.log(score);
+var score = 40;
+
+
+// Write a function that contains another function and prints values from both scopes.
+function outer() {
+  let a = 10; // Outer scope
+
+  function inner() {
+    let b = 20; // Inner scope
+
+    console.log("Outer scope value:", a);
+    console.log("Inner scope value:", b);
+  }
+
+  inner();
+}
+
+outer();
+
+function outer() {
+    var teacher = "Kartik Sir";
+
+    function inner() {
+        var student = "Jenil";
+        console.log(student);
+        console.log(teacher);
+    }
+
+    inner();
+}
+
+outer();
+
+if (true) {
+    var x = 20;
+}
+console.log(x); // 20
