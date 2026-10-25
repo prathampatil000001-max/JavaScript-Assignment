@@ -903,3 +903,19 @@ if (true) {
     var x = 20;
 }
 console.log(x); // 20
+
+console.log(a);
+var a = 10;
+
+var x = 10;
+var x = 20; // allowed, but confusing
+
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
