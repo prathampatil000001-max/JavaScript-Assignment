@@ -919,3 +919,20 @@ function demo() {
 
 demo();
 console.log(a);
+
+console.log(2*"2")
+
+var college = "CodingGita";
+
+function showCollege() {
+    console.log(college);
+}
+
+showCollege();       // CodingGita
+console.log(college); // CodingGita
+
+if (true) {
+    var x = 10;
+}
+
+console.log(x); // 10 (still accessible outside)
