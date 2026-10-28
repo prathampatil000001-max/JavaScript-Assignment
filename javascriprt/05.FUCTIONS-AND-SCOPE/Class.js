@@ -991,3 +991,26 @@ if (true) {
     var x = 20;
 }
 console.log(x); // 20
+var score = 50;
+
+function test() {
+    var score = 90; // local shadows global
+    console.log(score); // 90
+}
+
+test();
+console.log(score); // 50
+
+function outer() {
+    var teacher = "Kartik Sir";
+
+    function inner() {
+        var student = "Jenil";
+        console.log(student);
+        console.log(teacher);
+    }
+
+    inner();
+}
+
+outer();
