@@ -946,3 +946,20 @@ greet();  // Works
 function greet() {
     console.log("Hello students of CodingGita");
 }
+var institute = "CodingGita";
+
+function department() {
+    var dept = "CSE";
+
+    function batchInfo() {
+        var batch = "2025";
+
+        console.log(batch);     // 2025
+        console.log(dept);      // CSE
+        console.log(institute); // CodingGita
+    }
+
+    batchInfo();
+}
+
+department();
