@@ -936,3 +936,13 @@ if (true) {
 }
 
 console.log(x); // 10 (still accessible outside)
+
+var a;
+console.log(a); // undefined
+a = 10;
+
+greet();  // Works
+
+function greet() {
+    console.log("Hello students of CodingGita");
+}
