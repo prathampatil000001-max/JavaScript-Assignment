@@ -1018,3 +1018,13 @@ if (true) {
     var x = 20;
 }
 console.log(x); // 20
+
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
