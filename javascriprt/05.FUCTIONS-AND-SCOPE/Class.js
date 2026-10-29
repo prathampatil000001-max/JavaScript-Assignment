@@ -1033,3 +1033,6 @@ if (true) {
     var x = 30;
 }
 console.log(x);
+
+console.log(score);
+var score = 40;
