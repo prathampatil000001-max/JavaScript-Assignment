@@ -1036,3 +1036,12 @@ console.log(x);
 
 console.log(score);
 var score = 40;
+var score = 50;
+
+function test() {
+    var score = 90; // local shadows global
+    console.log(score); // 90
+}
+
+test();
+console.log(score); // 50
