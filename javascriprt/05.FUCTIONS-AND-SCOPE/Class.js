@@ -1065,3 +1065,8 @@ var names = ["Jenil", "Arjun", "Krishna", "Arjun"];
 
 console.log(names.indexOf("Arjun"));  // 1
 console.log(names.indexOf("Mahir"));  // -1
+
+var ids = [101, 102, 103];
+
+console.log(ids.includes(102)); // true
+console.log(ids.includes(200)); // false
