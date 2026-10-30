@@ -1055,3 +1055,8 @@ var removed = nums.pop();
 
 console.log(nums);     // [10, 20]
 console.log(removed);  // 30
+
+var list = [2, 3, 4];
+list.unshift(1);
+
+console.log(list); // [1, 2, 3, 4]
