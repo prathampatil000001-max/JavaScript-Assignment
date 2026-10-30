@@ -1060,3 +1060,8 @@ var list = [2, 3, 4];
 list.unshift(1);
 
 console.log(list); // [1, 2, 3, 4]
+
+var names = ["Jenil", "Arjun", "Krishna", "Arjun"];
+
+console.log(names.indexOf("Arjun"));  // 1
+console.log(names.indexOf("Mahir"));  // -1
