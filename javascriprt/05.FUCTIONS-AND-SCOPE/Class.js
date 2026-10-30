@@ -1070,3 +1070,8 @@ var ids = [101, 102, 103];
 
 console.log(ids.includes(102)); // true
 console.log(ids.includes(200)); // false
+
+var nums = [1, 2, 3];
+nums.reverse();
+
+console.log(nums); // [3, 2, 1]
