@@ -1045,3 +1045,13 @@ function test() {
 
 test();
 console.log(score); // 50
+
+var students = ["Jenil", "Mahir"];
+students.push("Yashvi");
+
+console.log(students); // ["Jenil", "Mahir", "Yashvi"]
+var nums = [10, 20, 30];
+var removed = nums.pop();
+
+console.log(nums);     // [10, 20]
+console.log(removed);  // 30
