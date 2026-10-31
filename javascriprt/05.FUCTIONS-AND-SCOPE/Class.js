@@ -1093,3 +1093,12 @@ function demo() {
 
 demo();
 console.log(a);
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
