@@ -1080,3 +1080,16 @@ const students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
 for (let i = 0; i < students.length; i++) {
     console.log(students[i]);
 }
+if (true) {
+    var x = 30;
+}
+console.log(x);
+var a = 5;
+
+function demo() {
+    var a = 10;
+    console.log(a);
+}
+
+demo();
+console.log(a);
