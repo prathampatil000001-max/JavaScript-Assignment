@@ -1075,3 +1075,8 @@ var nums = [1, 2, 3];
 nums.reverse();
 
 console.log(nums); // [3, 2, 1]
+
+const students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
+for (let i = 0; i < students.length; i++) {
+    console.log(students[i]);
+}
