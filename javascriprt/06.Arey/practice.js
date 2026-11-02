@@ -5,3 +5,6 @@ console.log(students[2]); // Priyesha
 let marks = [80, 75, 90];
 marks[1] = 95;
 console.log(marks); // [80, 95, 90]
+
+const arr = [1, 2, 3, 4];
+console.log(arr.length); // 4
