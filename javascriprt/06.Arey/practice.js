@@ -8,3 +8,7 @@ console.log(marks); // [80, 95, 90]
 
 const arr = [1, 2, 3, 4];
 console.log(arr.length); // 4
+
+let nums = [1, 2, 3];
+nums.push(4);
+console.log(nums); // [1, 2, 3, 4]
