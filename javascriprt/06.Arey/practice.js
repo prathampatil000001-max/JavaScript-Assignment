@@ -15,3 +15,14 @@ console.log(nums); // [1, 2, 3, 4]
 
 nums.unshift(0);
 console.log(nums); // [0, 1, 2, 3, 4]
+
+const names = ["Jenil", "Mahir", "Arjun"];
+console.log(names.indexOf("Mahir")); // 1
+console.log(names.indexOf("Krishna")); // -1
+
+const matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+console.log(matrix[2][1]); // 6
