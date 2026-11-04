@@ -40,3 +40,7 @@ console.log(list); // [1, 2, 3, 4]
 // var first = arr.shift();
 // console.log(arr);   // [200, 300]
 // console.log(first); // 100
+
+// var students = ["Jenil", "Mahir"];
+// students.push("Yashvi");
+// console.log(students); // ["Jenil", "Mahir", "Yashvi"]
