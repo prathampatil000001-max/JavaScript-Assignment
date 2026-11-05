@@ -62,3 +62,13 @@ try {
     console.log("An error occurred.");
     console.log("Error message:", e.message);
 }
+
+var age = 15;
+
+try {
+    if (age < 18) {
+        throw "Underage student";
+    }
+} catch (err) {
+    console.log("Error:", err);
+}
