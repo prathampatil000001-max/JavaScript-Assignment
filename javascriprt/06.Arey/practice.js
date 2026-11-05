@@ -50,3 +50,8 @@ console.log(list); // [1, 2, 3, 4]
 // console.log(nums);     // [10, 20]
 // console.log(removed);  // 30
 
+var marks = [80, 90, 100];
+console.log(marks.length - 1);  // wrong: prints 2 instead of total marks
+
+var total = marks1 + marks2 + marks3;
+console.log("Total is:", total);
