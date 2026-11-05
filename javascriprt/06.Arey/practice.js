@@ -72,3 +72,11 @@ try {
 } catch (err) {
     console.log("Error:", err);
 }
+
+var total = 0;
+var marks = [80, 90, 70];
+
+for (var i = 1; i <= marks.length; i++) {   // problem: starts at 1
+    total += marks[i];
+}
+console.log(total);
