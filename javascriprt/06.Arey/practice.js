@@ -80,3 +80,13 @@ for (var i = 1; i <= marks.length; i++) {   // problem: starts at 1
     total += marks[i];
 }
 console.log(total);
+
+var student = {
+    name: "Krishna",
+    marks: [80, 90, 85],
+    avg: function() {
+        return this.marks[0] + this.marks[1] + this.marks[2] / 3;
+    }
+};
+
+console.log(student.avg());
