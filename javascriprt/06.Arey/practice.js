@@ -55,3 +55,10 @@ console.log(marks.length - 1);  // wrong: prints 2 instead of total marks
 
 var total = marks1 + marks2 + marks3;
 console.log("Total is:", total);
+
+try {
+    console.log(studentName);
+} catch (e) {
+    console.log("An error occurred.");
+    console.log("Error message:", e.message);
+}
