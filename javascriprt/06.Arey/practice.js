@@ -148,3 +148,30 @@ var student = {
 };
 
 console.log(student.getAverage());
+
+// 16. Practice Exercises
+// Exercise 1
+// Create an object book with properties:
+
+// title
+// author
+// price Print all values.
+// Exercise 2
+// Add a method discountedPrice() that returns price - 50.
+
+// Exercise 3
+// Create an array of 5 student objects:
+
+// name
+// marks Print names and marks using a loop.
+// Exercise 4
+// Add an address object inside each student.
+
+// Exercise 5
+// Create a course object with:
+
+// name
+// duration
+// topics (array)
+// instructor (object)
+// Print the instructor's name.
