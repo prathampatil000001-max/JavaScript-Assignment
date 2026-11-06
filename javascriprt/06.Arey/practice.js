@@ -137,3 +137,14 @@ var students = [
 for (var i = 0; i < students.length; i++) {
     console.log(students[i].name, students[i].marks);
 }
+
+var student = {
+    name: "Krishna",
+    scores: [85, 92, 88],
+    getAverage: function() {
+        var total = this.scores[0] + this.scores[1] + this.scores[2];
+        return total / 3;
+    }
+};
+
+console.log(student.getAverage());
