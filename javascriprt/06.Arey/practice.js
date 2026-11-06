@@ -90,3 +90,20 @@ var student = {
 };
 
 console.log(student.avg());
+
+var student = { name: "Yashvi", age: 18 };
+
+student.course = "CSE";
+student["batch"] = "2025";
+
+console.log(student);
+
+var student = {
+    name: "Priyesha",
+    marks: 90,
+    greet: function() {
+        return "Hello, " + this.name;
+    }
+};
+
+console.log(student.greet());
