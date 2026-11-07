@@ -212,3 +212,14 @@ var student = {
 };
 
 console.log(student.address.city);
+
+var student = {
+    name: "Krishna",
+    scores: [85, 92, 88],
+    getAverage: function() {
+        var total = this.scores[0] + this.scores[1] + this.scores[2];
+        return total / 3;
+    }
+};
+
+console.log(student.getAverage());
