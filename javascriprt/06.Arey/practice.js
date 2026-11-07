@@ -202,3 +202,13 @@ var student = {
 console.log("name:", student.name);
 console.log("age:", student.age);
 console.log("course:", student.course);
+
+var student = {
+    name: "Arjun",
+    address: {
+        city: "Ahmedabad",
+        pincode: 380015
+    }
+};
+
+console.log(student.address.city);
