@@ -192,3 +192,13 @@ var student = {
 };
 
 console.log(student.greet());
+
+var student = {
+    name: "Krishna",
+    age: 18,
+    course: "CSE"
+};
+
+console.log("name:", student.name);
+console.log("age:", student.age);
+console.log("course:", student.course);
