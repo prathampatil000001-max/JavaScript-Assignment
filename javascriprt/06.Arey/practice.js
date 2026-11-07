@@ -175,3 +175,10 @@ console.log(student.getAverage());
 // topics (array)
 // instructor (object)
 // Print the instructor's name.
+
+var student = { name: "Yashvi", age: 18 };
+
+student.course = "CSE";
+student["batch"] = "2025";
+
+console.log(student);
