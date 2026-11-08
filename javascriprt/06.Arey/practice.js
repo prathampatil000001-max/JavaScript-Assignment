@@ -223,3 +223,23 @@ var student = {
 };
 
 console.log(student.getAverage());
+
+var student = {
+    name: "Priyesha",
+    marks: 90,
+    greet: function() {
+        return "Hello, " + this.name;
+    }
+};
+
+console.log(student.greet());
+
+var student = {
+    name: "Krishna",
+    age: 18,
+    course: "CSE"
+};
+
+console.log("name:", student.name);
+console.log("age:", student.age);
+console.log("course:", student.course);
