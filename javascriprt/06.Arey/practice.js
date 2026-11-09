@@ -263,3 +263,11 @@ console.log(student.address.city);
 // for (var i = 0; i < students.length; i++) {
 //     console.log(students[i].name, students[i].marks);
 // }
+
+var a = 10;
+var b = a;   // a copy of the value 10 is created
+
+b = 20;
+
+console.log(a); // 10
+console.log(b); // 20
