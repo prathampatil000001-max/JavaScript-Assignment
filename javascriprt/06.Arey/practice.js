@@ -275,3 +275,8 @@ console.log(b); // 20
 const students = ["Jenil", "Mahir", "Priyesha"];
 console.log(students[0]); // Jenil
 console.log(students[2]); // Priyesha
+
+const students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
+for (const student of students) {
+    console.log(student);
+}
