@@ -280,3 +280,11 @@ const students = ["Jenil", "Mahir", "Krishna", "Yashvi"];
 for (const student of students) {
     console.log(student);
 }
+
+var a = 10;
+var b = a;   // a copy of the value 10 is created
+
+b = 20;
+
+console.log(a); // 10
+console.log(b); // 20
