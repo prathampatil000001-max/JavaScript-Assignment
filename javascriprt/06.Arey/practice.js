@@ -288,3 +288,10 @@ b = 20;
 
 console.log(a); // 10
 console.log(b); // 20
+
+var student1 = {
+    name: "Mahir",
+    age: 18
+};
+
+var student2 = student1;   // Only the reference is copied
