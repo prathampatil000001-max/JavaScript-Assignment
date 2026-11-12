@@ -295,3 +295,10 @@ var student1 = {
 };
 
 var student2 = student1;   // Only the reference is copied
+
+var student = { name: "Yashvi", age: 18 };
+
+student.course = "CSE";
+student["batch"] = "2025";
+
+console.log(student);
