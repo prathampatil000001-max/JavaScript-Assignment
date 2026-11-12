@@ -302,3 +302,13 @@ student.course = "CSE";
 student["batch"] = "2025";
 
 console.log(student);
+
+var student = {
+    name: "Priyesha",
+    marks: 90,
+    greet: function() {
+        return "Hello, " + this.name;
+    }
+};
+
+console.log(student.greet());
