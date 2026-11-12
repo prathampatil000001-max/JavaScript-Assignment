@@ -369,3 +369,11 @@ student2.name = "Arjun Patel";
 
 console.log(student1.name); // Arjun Patel
 console.log(student2.name); // Arjun Patel
+
+var a = [10, 20, 30];
+var b = a;
+
+b.push(40);
+
+console.log(a); // [10, 20, 30, 40]
+console.log(b); // [10, 20, 30, 40]
