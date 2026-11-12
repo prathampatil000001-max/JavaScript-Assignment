@@ -353,3 +353,19 @@ var student = {
 };
 
 console.log(student.getAverage());
+
+var a = 10;
+var b = a;   // a copy of the value 10 is created
+
+b = 20;
+
+console.log(a); // 10
+console.log(b); // 20
+
+var student1 = { name: "Arjun", age: 18 };
+var student2 = student1;
+
+student2.name = "Arjun Patel";
+
+console.log(student1.name); // Arjun Patel
+console.log(student2.name); // Arjun Patel
