@@ -332,3 +332,13 @@ var student = {
 };
 
 console.log(student.address.city);
+
+var students = [
+    { name: "Jenil", marks: 85 },
+    { name: "Mahir", marks: 90 },
+    { name: "Yashvi", marks: 92 }
+];
+
+for (var i = 0; i < students.length; i++) {
+    console.log(students[i].name, students[i].marks);
+}
