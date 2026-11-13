@@ -400,3 +400,8 @@ console.log('Each person gets:', share); // 25
 let num = 17;
 let remainder = num % 5;
 console.log('Remainder when 17 is divided by 5:', remainder); // 2
+
+let base = 2;
+let power = 3;
+let result = base ** power;
+console.log('2 raised to power 3:', result); // 8
