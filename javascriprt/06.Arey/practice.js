@@ -396,3 +396,7 @@ let total = 100;
 let people = 4;
 let share = total / people;
 console.log('Each person gets:', share); // 25
+
+let num = 17;
+let remainder = num % 5;
+console.log('Remainder when 17 is divided by 5:', remainder); // 2
