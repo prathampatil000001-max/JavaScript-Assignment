@@ -377,3 +377,8 @@ b.push(40);
 
 console.log(a); // [10, 20, 30, 40]
 console.log(b); // [10, 20, 30, 40]
+
+let a = 50;
+let b = 20;
+let diff = a - b;
+console.log('The difference of a & b:', diff); // 30
