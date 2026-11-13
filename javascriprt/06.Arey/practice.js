@@ -382,3 +382,7 @@ let a = 50;
 let b = 20;
 let diff = a - b;
 console.log('The difference of a & b:', diff); // 30
+
+let walletBalance = 500;
+let billAmount = 120;
+let remainingBalance = walletBalance - billAmount; // 380
