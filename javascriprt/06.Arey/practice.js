@@ -386,3 +386,8 @@ console.log('The difference of a & b:', diff); // 30
 let walletBalance = 500;
 let billAmount = 120;
 let remainingBalance = walletBalance - billAmount; // 380
+
+let price = 50;
+let quantity = 4;
+let total = price * quantity;
+console.log('Total price:', total); // 200
