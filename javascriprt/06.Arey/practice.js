@@ -391,3 +391,8 @@ let price = 50;
 let quantity = 4;
 let total = price * quantity;
 console.log('Total price:', total); // 200
+
+let total = 100;
+let people = 4;
+let share = total / people;
+console.log('Each person gets:', share); // 25
