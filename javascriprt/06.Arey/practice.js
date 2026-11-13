@@ -410,3 +410,7 @@ console.log('2 raised to power 3:', result); // 8
 let a, b, c;
 a = b = c = 10;
 console.log(a, b, c);           // 10, 10, 10
+
+let score = 10;
+score += 5;
+console.log('New score:', score); // 15
