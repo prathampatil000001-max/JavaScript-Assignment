@@ -405,3 +405,8 @@ let base = 2;
 let power = 3;
 let result = base ** power;
 console.log('2 raised to power 3:', result); // 8
+
+// Chained assignment: all variables get the same value
+let a, b, c;
+a = b = c = 10;
+console.log(a, b, c);           // 10, 10, 10
