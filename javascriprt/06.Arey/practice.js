@@ -436,3 +436,8 @@ for (let i = 1; i <= 20; i++) {
 for (let i = 5; i >= 1; i--) {
   console.log(i);
 }
+
+const arr = [10, 20, 30, 40, 50];
+for (let i = arr.length - 1; i >= 0; i--) {
+  console.log(arr[i]);
+}
