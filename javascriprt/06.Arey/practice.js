@@ -414,3 +414,8 @@ console.log(a, b, c);           // 10, 10, 10
 let score = 10;
 score += 5;
 console.log('New score:', score); // 15
+
+let str = "Hello";
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i]);
+}
