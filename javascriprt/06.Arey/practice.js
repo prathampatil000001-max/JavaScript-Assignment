@@ -424,3 +424,11 @@ let str = "Hello";
 for (let i = 0; i < str.length; i++) {
   console.log(str[i]);
 }
+
+for (let i = 1; i <= 20; i++) {
+  if (i === 13) {
+    console.log("Stopped at 13");
+    break;
+  }
+  console.log(i);
+}
