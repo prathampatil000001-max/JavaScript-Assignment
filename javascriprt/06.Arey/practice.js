@@ -502,3 +502,12 @@ var displayData = profile;   // Only reference is copied
 
 displayData.marks = 95;
 console.log(profile.marks); // 95
+
+
+var a = [10, 20, 30];
+var b = a;
+
+b.push(40);
+
+console.log(a); // [10, 20, 30, 40]
+console.log(b); // [10, 20, 30, 40]
