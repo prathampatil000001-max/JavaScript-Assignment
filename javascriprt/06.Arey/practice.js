@@ -465,3 +465,14 @@ b.push(40);
 
 console.log(a); // [10, 20, 30, 40]
 console.log(b); // [10, 20, 30, 40]
+
+var s1 = { name: "Yashvi", marks: 88 };
+var s2 = {};
+
+s2.name = s1.name;
+s2.marks = s1.marks;
+
+s2.marks = 95;
+
+console.log(s1.marks); // 88  (unchanged)
+console.log(s2.marks); // 95  (independent)
