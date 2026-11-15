@@ -491,3 +491,14 @@ student2.name = "Arjun Patel";
 
 console.log(student1.name); // Arjun Patel
 console.log(student2.name); // Arjun Patel
+
+var profile = {
+    name: "Krishna",
+    course: "CSE",
+    marks: 90
+};
+
+var displayData = profile;   // Only reference is copied
+
+displayData.marks = 95;
+console.log(profile.marks); // 95
