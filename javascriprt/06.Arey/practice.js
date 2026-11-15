@@ -476,3 +476,10 @@ s2.marks = 95;
 
 console.log(s1.marks); // 88  (unchanged)
 console.log(s2.marks); // 95  (independent)
+
+var a = { x: 10 };
+var b = a;
+
+b.x = 20;
+
+console.log(a.x);
