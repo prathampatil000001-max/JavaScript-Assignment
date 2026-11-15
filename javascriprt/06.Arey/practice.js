@@ -483,3 +483,11 @@ var b = a;
 b.x = 20;
 
 console.log(a.x);
+
+var student1 = { name: "Arjun", age: 18 };
+var student2 = student1;
+
+student2.name = "Arjun Patel";
+
+console.log(student1.name); // Arjun Patel
+console.log(student2.name); // Arjun Patel
