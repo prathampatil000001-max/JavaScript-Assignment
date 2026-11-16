@@ -668,3 +668,13 @@ try {
 catch (e) {
     console.log("Error");
 }
+
+try {
+    throw "Error in try";
+}
+catch (e) {
+    console.log("Caught:", e);
+}
+finally {
+    console.log("Completed");
+}
