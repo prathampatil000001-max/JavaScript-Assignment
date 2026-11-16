@@ -606,3 +606,13 @@ try {
 catch (e) {
     console.log("Error 2:", e.message);
 }
+
+try {
+    console.log("No error here");
+}
+catch (e) {
+    console.log("This won’t run");
+}
+finally {
+    console.log("Always runs");
+}
