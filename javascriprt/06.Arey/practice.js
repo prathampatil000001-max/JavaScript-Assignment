@@ -510,4 +510,11 @@ var b = a;
 b.push(40);
 
 console.log(a); // [10, 20, 30, 40]
-console.log(b); // [10, 20, 30, 40]
+console.log(b); // [10, 20, 30, 40]\\
+
+try {
+    console.log(studentName);
+} catch (e) {
+    console.log("An error occurred.");
+    console.log("Error message:", e.message);
+}
