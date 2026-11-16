@@ -685,3 +685,12 @@ const greet = (name = "Guest") => {
 
 greet();      // Hello Guest
 greet("Arjun"); // Hello Arjun
+
+const student = {
+    name: "Yashvi",
+    show: function () {
+        console.log(this.name);
+    }
+};
+
+student.show(); // "Yashvi"
