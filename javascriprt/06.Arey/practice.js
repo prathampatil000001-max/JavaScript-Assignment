@@ -592,3 +592,17 @@ try {
 catch (error) {
     console.log("Caught:", error);
 }
+
+try {
+    console.log("Step 1");
+}
+catch (e) {
+    console.log("Error 1:", e);
+}
+
+try {
+    console.log(unknown);
+}
+catch (e) {
+    console.log("Error 2:", e.message);
+}
