@@ -711,3 +711,12 @@ const obj = {
     }
 };
 obj.fn();
+function Person() {
+    this.age = 18;
+
+    setInterval(function () {
+        console.log(this.age);
+    }, 1000);
+}
+
+new Person();
