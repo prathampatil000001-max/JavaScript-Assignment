@@ -678,3 +678,10 @@ catch (e) {
 finally {
     console.log("Completed");
 }
+
+const greet = (name = "Guest") => {
+    console.log("Hello " + name);
+};
+
+greet();      // Hello Guest
+greet("Arjun"); // Hello Arjun
