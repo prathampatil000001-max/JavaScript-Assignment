@@ -546,3 +546,9 @@ var student = {
 };
 
 console.log(student.avg());
+
+try {
+    console.log(x);
+} catch (e) {
+    console.log("Error!");
+}
