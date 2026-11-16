@@ -703,3 +703,11 @@ const student = {
 };
 
 student.show(); // undefined
+
+const obj = {
+    a: 10,
+    fn: () => {
+        console.log(this.a);
+    }
+};
+obj.fn();
