@@ -552,3 +552,16 @@ try {
 } catch (e) {
     console.log("Error!");
 }
+
+try {
+    var marks = parseInt("ABC"); // NaN
+
+    if (isNaN(marks)) {
+        throw "Marks must be a number";
+    }
+
+    console.log(marks);
+}
+catch (e) {
+    console.log("Error:", e);
+}
