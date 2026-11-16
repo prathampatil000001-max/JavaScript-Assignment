@@ -627,3 +627,15 @@ function test() {
 }
 
 console.log(test());
+
+try {
+    try {
+        console.log(x); // error
+    }
+    catch (inner) {
+        console.log("Inner catch:", inner.message);
+    }
+}
+catch (outer) {
+    console.log("Outer catch:", outer.message);
+}
