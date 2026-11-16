@@ -565,3 +565,16 @@ try {
 catch (e) {
     console.log("Error:", e);
 }
+
+try {
+    var marks = 150;
+
+    if (marks < 0 || marks > 100) {
+        throw "Marks out of range";
+    }
+
+    console.log("Marks:", marks);
+}
+catch (e) {
+    console.log("Error:", e);
+}
