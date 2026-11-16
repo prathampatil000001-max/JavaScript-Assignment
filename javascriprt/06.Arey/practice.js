@@ -616,3 +616,14 @@ catch (e) {
 finally {
     console.log("Always runs");
 }
+
+function test() {
+    try {
+        return "Returning from try";
+    }
+    finally {
+        console.log("Finally still executed");
+    }
+}
+
+console.log(test());
