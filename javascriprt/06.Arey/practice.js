@@ -662,3 +662,9 @@ catch (e) {
 finally {
     console.log("Validation complete");
 }
+try {
+    console.log("Hello");
+}
+catch (e) {
+    console.log("Error");
+}
