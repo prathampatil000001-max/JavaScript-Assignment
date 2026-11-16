@@ -694,3 +694,12 @@ const student = {
 };
 
 student.show(); // "Yashvi"
+
+const student = {
+    name: "Yashvi",
+    show: () => {
+        console.log(this.name);
+    }
+};
+
+student.show(); // undefined
