@@ -730,3 +730,10 @@ function Person() {
 }
 
 new Person();
+
+const greet = (name = "Guest") => {
+    console.log("Hello " + name);
+};
+
+greet();      // Hello Guest
+greet("Arjun"); // Hello Arjun
