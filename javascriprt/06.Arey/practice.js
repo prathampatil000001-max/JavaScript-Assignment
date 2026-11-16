@@ -639,3 +639,26 @@ try {
 catch (outer) {
     console.log("Outer catch:", outer.message);
 }
+
+try {
+    var marks = [85, 90, 110, 70]; // 110 invalid
+
+    for (var i = 0; i < marks.length; i++) {
+
+        if (typeof marks[i] !== "number") {
+            throw "Non-numeric value at index " + i;
+        }
+
+        if (marks[i] < 0 || marks[i] > 100) {
+            throw "Invalid marks at index " + i;
+        }
+    }
+
+    console.log("All marks valid");
+}
+catch (e) {
+    console.log("Error:", e);
+}
+finally {
+    console.log("Validation complete");
+}
