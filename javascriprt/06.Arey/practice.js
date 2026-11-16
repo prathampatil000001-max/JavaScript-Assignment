@@ -578,3 +578,17 @@ try {
 catch (e) {
     console.log("Error:", e);
 }
+
+function divide(a, b) {
+    if (b === 0) {
+        throw "Cannot divide by zero";
+    }
+    return a / b;
+}
+
+try {
+    console.log(divide(10, 0));
+}
+catch (error) {
+    console.log("Caught:", error);
+}
