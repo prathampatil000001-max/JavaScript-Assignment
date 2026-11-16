@@ -720,3 +720,13 @@ function Person() {
 }
 
 new Person();
+
+function Person() {
+    this.age = 18;
+
+    setInterval(() => {
+        console.log(this.age);
+    }, 1000);
+}
+
+new Person();
