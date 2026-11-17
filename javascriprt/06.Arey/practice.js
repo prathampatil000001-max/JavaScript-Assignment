@@ -737,3 +737,10 @@ const greet = (name = "Guest") => {
 
 greet();      // Hello Guest
 greet("Arjun"); // Hello Arjun
+
+const greet = (name = "Guest") => {
+    console.log("Hello " + name);
+};
+
+greet();      // Hello Guest
+greet("Arjun"); // Hello Arjun
