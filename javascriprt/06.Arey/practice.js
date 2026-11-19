@@ -761,10 +761,17 @@ console.log(nums); // Original stays same
 // 13. splice()
 // Modifies the array by removing or inserting elements.
 
-var arre = [10, 20, 30, 40];
-arre.splice(1, 2);
-console.log(arre); // [10, 40]
+// var arre = [10, 20, 30, 40];
+// arre.splice(1, 2);
+// console.log(arre); // [10, 40]
 
-var arrey = [1, 4, 5];
-arrey.splice(1, 0, 2, 3);
-console.log(arrey); // [1, 2, 3, 4, 5]
+// var arrey = [1, 4, 5];
+// arrey.splice(1, 0, 2, 3);
+// console.log(arrey); // [1, 2, 3, 4, 5]
+
+let nums = [1,2,3,4]
+nums.push(5)
+console.log(nums)
+nums.unshift(0)
+console.log(nums)
+
