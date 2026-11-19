@@ -807,3 +807,10 @@ let arrj = ["Jenil", "Mahir", "Arjun"];
 arrj.splice(1, 0, "Krishna");
 
 console.log(arrj);
+
+
+let arrr = [10, 20, 30, 40, 50];
+
+arrr.splice(1, 2, 100);
+
+console.log(arrr);
