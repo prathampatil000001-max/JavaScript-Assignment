@@ -800,3 +800,10 @@ console.log(arrd);
 var arrj = [10, 20, 30, 40];
 arrj.splice(1, 2);
 console.log(arrj); // [10, 40]
+
+// Start with ["Jenil", "Mahir", "Arjun"]. Use splice() to insert "Krishna" between Jenil and Mahir
+let arrj = ["Jenil", "Mahir", "Arjun"];
+
+arrj.splice(1, 0, "Krishna");
+
+console.log(arrj);
