@@ -793,6 +793,10 @@ arrd.shift();
 
 console.log(arrd);
 
-const names = ["Jenil", "Mahir", "Arjun"];
-console.log(names.indexOf("Mahir")); // 1
-console.log(names.indexOf("Krishna")); // -1
+// const names = ["Jenil", "Mahir", "Arjun"];
+// console.log(names.indexOf("Mahir")); // 1
+// console.log(names.indexOf("Krishna")); // -1
+
+var arrj = [10, 20, 30, 40];
+arrj.splice(1, 2);
+console.log(arrj); // [10, 40]
