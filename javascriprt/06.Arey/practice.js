@@ -756,3 +756,11 @@ var nums = [10, 20, 30, 40, 50];
 var part = nums.slice(1, 4);
 console.log(part); // [20, 30, 40]
 console.log(nums); // Original stays same
+
+
+// 13. splice()
+// Modifies the array by removing or inserting elements.
+
+var arre = [10, 20, 30, 40];
+arre.splice(1, 2);
+console.log(arre); // [10, 40]
