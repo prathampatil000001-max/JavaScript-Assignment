@@ -836,7 +836,12 @@ console.log(result);
 
 // Create an array of 6 fruits. Find the index of a fruit that exists and one that does not exist using indexOf().
 
-let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple"];
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple"];
+
+// console.log(fruits.indexOf("Mango"));
+// console.log(fruits.indexOf("Watermelon"));
+
+// What will indexOf() return if the element appears more than once? Write a short code to demonstrate.
+let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
 
 console.log(fruits.indexOf("Mango"));
-console.log(fruits.indexOf("Watermelon"));
