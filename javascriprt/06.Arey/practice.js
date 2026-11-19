@@ -775,3 +775,8 @@ console.log(nums)
 nums.unshift(0)
 console.log(nums)
 
+let nums = [1, 2, 3, 4, 5];
+
+nums.unshift(0);
+
+console.log(nums);
