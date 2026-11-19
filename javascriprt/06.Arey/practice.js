@@ -845,3 +845,14 @@ console.log(result);
 let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
 
 console.log(fruits.indexOf("Mango"));
+
+let arrm = [100, "Hello", true, null];
+
+console.log(arrm);
+
+let arrc = [100, "Hello", true, null];
+
+console.log(typeof arrc[0]);
+console.log(typeof arrc[1]);
+console.log(typeof arrc[2]);
+console.log(typeof arrc[3]);
