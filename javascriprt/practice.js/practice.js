@@ -132,3 +132,10 @@
 // console.log(mat[2][2]);
 // console.log(mat[2][0]);
 
+
+var student = { name: "Yashvi", age: 18 };
+
+student.course = "CSE";
+student["batch"] = "2025";
+
+console.log(student);
