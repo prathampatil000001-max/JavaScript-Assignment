@@ -802,11 +802,11 @@ arrj.splice(1, 2);
 console.log(arrj); // [10, 40]
 
 // Start with ["Jenil", "Mahir", "Arjun"]. Use splice() to insert "Krishna" between Jenil and Mahir
-let arrj = ["Jenil", "Mahir", "Arjun"];
+// let arrj = ["Jenil", "Mahir", "Arjun"];
 
-arrj.splice(1, 0, "Krishna");
+// arrj.splice(1, 0, "Krishna");
 
-console.log(arrj);
+// console.log(arrj);
 
 
 let arrr = [10, 20, 30, 40, 50];
@@ -816,11 +816,11 @@ arrr.splice(1, 2, 100);
 
 console.log(arrr);
 
-let arrv = [10, 20, 30, 40, 50];
+// let arrv = [10, 20, 30, 40, 50];
 
-arrv.splice(1, 2, 100);
+// arrv.splice(1, 2, 100);
 
-console.log(arrdv);
+// console.log(arrdv);
 
 // Convert an array of your 4 favorite movies into a string using toString() and print it.
 let movies = ["Avatar", "Titanic", "Inception", "Avengers"];
@@ -828,3 +828,15 @@ let movies = ["Avatar", "Titanic", "Inception", "Avengers"];
 let result = movies.toString();
 
 console.log(result);
+
+// How is toString() different from join()? Give one advantage of each.
+// let fruits = ["Apple", "Banana", "Mango"];
+
+// console.log(fruits.toString());
+
+// Create an array of 6 fruits. Find the index of a fruit that exists and one that does not exist using indexOf().
+
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple"];
+
+console.log(fruits.indexOf("Mango"));
+console.log(fruits.indexOf("Watermelon"));
