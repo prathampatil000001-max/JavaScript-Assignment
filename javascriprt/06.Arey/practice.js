@@ -821,3 +821,10 @@ let arrv = [10, 20, 30, 40, 50];
 arrv.splice(1, 2, 100);
 
 console.log(arrdv);
+
+// Convert an array of your 4 favorite movies into a string using toString() and print it.
+let movies = ["Avatar", "Titanic", "Inception", "Avengers"];
+
+let result = movies.toString();
+
+console.log(result);
