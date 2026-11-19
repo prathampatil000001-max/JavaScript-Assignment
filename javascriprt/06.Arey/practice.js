@@ -748,3 +748,11 @@
 const students = ["Jenil", "Mahir", "Priyesha"];
 console.log(students[0]); // Jenil
 console.log(students[2]); // Priyesha
+
+let arr=[1,2,3,4,5,6,7,];
+console.log(arr.slice(1,6),arr)
+
+var nums = [10, 20, 30, 40, 50];
+var part = nums.slice(1, 4);
+console.log(part); // [20, 30, 40]
+console.log(nums); // Original stays same
