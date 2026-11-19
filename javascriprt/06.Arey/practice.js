@@ -813,4 +813,11 @@ let arrr = [10, 20, 30, 40, 50];
 
 arrr.splice(1, 2, 100);
 
+
 console.log(arrr);
+
+let arrv = [10, 20, 30, 40, 50];
+
+arrv.splice(1, 2, 100);
+
+console.log(arrdv);
