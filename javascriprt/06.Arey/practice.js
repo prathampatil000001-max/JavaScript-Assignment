@@ -750,7 +750,7 @@ console.log(students[0]); // Jenil
 console.log(students[2]); // Priyesha
 
 let arr=[1,2,3,4,5,6,7,];
-console.log(arr.slice(1,6),arr)
+console.log(arr.slice(1,6).arr)
 
 var nums = [10, 20, 30, 40, 50];
 var part = nums.slice(1, 4);
@@ -764,3 +764,7 @@ console.log(nums); // Original stays same
 var arre = [10, 20, 30, 40];
 arre.splice(1, 2);
 console.log(arre); // [10, 40]
+
+var arrey = [1, 4, 5];
+arrey.splice(1, 0, 2, 3);
+console.log(arrey); // [1, 2, 3, 4, 5]
