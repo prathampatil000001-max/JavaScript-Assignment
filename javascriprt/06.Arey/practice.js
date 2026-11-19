@@ -769,14 +769,30 @@ console.log(nums); // Original stays same
 // arrey.splice(1, 0, 2, 3);
 // console.log(arrey); // [1, 2, 3, 4, 5]
 
-let nums = [1,2,3,4]
-nums.push(5)
-console.log(nums)
-nums.unshift(0)
-console.log(nums)
+// let nums = [1,2,3,4]
+// nums.push(5)
+// console.log(nums)
+// nums.unshift(0)
+// console.log(nums)
 
-let nums = [1, 2, 3, 4, 5];
+let numst = [1, 2, 3, 4, 5];
 
-nums.unshift(0);
+numst.unshift(0);
 
-console.log(nums);
+console.log(numst);
+
+let arrh = [100, 200, 300, 400, 500];
+
+arrh.pop();
+
+console.log(arrh);
+
+let arrd = [100, 200, 300, 400, 500];
+
+arrd.shift();
+
+console.log(arrd);
+
+const names = ["Jenil", "Mahir", "Arjun"];
+console.log(names.indexOf("Mahir")); // 1
+console.log(names.indexOf("Krishna")); // -1
