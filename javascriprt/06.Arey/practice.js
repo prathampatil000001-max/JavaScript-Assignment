@@ -856,3 +856,11 @@ console.log(typeof arrc[0]);
 console.log(typeof arrc[1]);
 console.log(typeof arrc[2]);
 console.log(typeof arrc[3]);
+
+
+const matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+];
+console.log(matrix[2][1]); // 6
