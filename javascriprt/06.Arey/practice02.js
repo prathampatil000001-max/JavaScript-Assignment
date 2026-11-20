@@ -73,3 +73,23 @@ for (let i = 0; i < mark.length; i++) {
     let total = mark[i].reduce((sum, mark) => sum + mark, 0);
     console.log("Total marks of Student", i + 1, "=", total);
 }
+
+let marks = [
+    [85, 90, 78],
+    [88, 76, 92],
+    [95, 89, 84]
+];
+
+// Print second student's marks
+console.log("Second Student Marks:", marks[1]);
+
+// Calculate total marks of each student
+for (let i = 0; i < marks.length; i++) {
+    let total = 0;
+
+    for (let j = 0; j < marks[i].length; j++) {
+        total = total + marks[i][j];
+    }
+
+    console.log("Student", i + 1, "Total Marks:", total);
+}
