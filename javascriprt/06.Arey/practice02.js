@@ -93,3 +93,29 @@ for (let i = 0; i < marks.length; i++) {
 
     console.log("Student", i + 1, "Total Marks:", total);
 }
+
+// Create an array of 4 students' marks
+let marks = [
+    [85, 90, 78],
+    [88, 76, 92],
+    [95, 89, 84],
+    [80, 85, 90]
+];
+
+// Print marks of second student
+console.log("Second Student Marks:", marks[1]);
+
+// Calculate total and average of each student
+for (let i = 0; i < marks.length; i++) {
+    let total = 0;
+
+    for (let j = 0; j < marks[i].length; j++) {
+        total = total + marks[i][j];
+    }
+
+    let average = total / marks[i].length;
+
+    console.log("Student", i + 1);
+    console.log("Total Marks:", total);
+    console.log("Average Marks:", average);
+}
