@@ -864,3 +864,13 @@ const matrix = [
     [5, 6]
 ];
 console.log(matrix[2][1]); // 6
+
+// # Create a 3×3 matrix
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+// # Print element at row index 1, column index 2
+print(matrix[1][2])
