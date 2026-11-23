@@ -924,3 +924,13 @@ console.log("Highest Marks:", highest);
 console.log("Lowest Marks:", lowest);
 console.log("Sum of Marks:", sum);
 console.log("Average Marks:", average);
+
+
+// Create an array
+let studentts = ["Rahul", "Priya", "Amit", "Neha"];
+
+// Insert Krishna at the beginning
+studentts.unshift("Krishna");
+
+// Display the updated array
+console.log(studentts);
