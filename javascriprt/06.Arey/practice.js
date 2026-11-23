@@ -901,3 +901,26 @@ for (let i = 0; i < marks.length; i++) {
     const avg = total / 3;
     console.log("Student " + (i + 1) + " average: " + avg+"getting a total Marks"+total);
 }
+
+// Create an array of 5 marks
+let markss = [85, 90, 75, 95, 80];
+
+// Calculate highest and lowest marks
+let highest = Math.max(...markss);
+let lowest = Math.min(...markss);
+
+// Calculate sum
+let sum = 0;
+
+for (let i = 0; i < marks.length; i++) {
+    sum += markss[i];
+}
+
+// Calculate average
+let average = sum / markss.length;
+
+// Display results
+console.log("Highest Marks:", highest);
+console.log("Lowest Marks:", lowest);
+console.log("Sum of Marks:", sum);
+console.log("Average Marks:", average);
