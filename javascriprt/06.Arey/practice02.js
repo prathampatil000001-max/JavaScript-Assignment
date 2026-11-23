@@ -130,9 +130,19 @@ for (let i = 0; i < marks.length; i++) {
 // console.log(matrix[1][2]);
 
 // Create a 2×4 matrix and print all the elements of the first row.
-let matrix = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8]
-];
+// let matrix = [
+//     [1, 2, 3, 4],
+//     [5, 6, 7, 8]
+// ];
 
-console.log(matrix[0]);
+// console.log(matrix[0])
+
+
+// let matrix=[
+//     [1,2,3]
+//     [4,5,6]
+//     [7,8,9]
+
+// ]
+// for (let i< matrix.length)
+
