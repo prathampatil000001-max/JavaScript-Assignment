@@ -562,3 +562,12 @@ for(let i=0; i<= codingGitaStudents.length-1; i++){
 //     Marks: __ __ __
 //     Total: __
 //     Average: __
+
+let arr = [];
+
+arr.push(10);
+arr.push(20);
+arr.push(30);
+
+console.log(arr);        // [10, 20, 30]
+console.log(arr.length); // 3
