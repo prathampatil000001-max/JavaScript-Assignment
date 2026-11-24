@@ -842,65 +842,65 @@ console.log(result);
 // console.log(fruits.indexOf("Watermelon"));
 
 // What will indexOf() return if the element appears more than once? Write a short code to demonstrate.
-let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
+// let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
 
-console.log(fruits.indexOf("Mango"));
+// console.log(fruits.indexOf("Mango"));
 
-let arrm = [100, "Hello", true, null];
+// let arrm = [100, "Hello", true, null];
 
-console.log(arrm);
+// console.log(arrm);
 
-let arrc = [100, "Hello", true, null];
+// let arrc = [100, "Hello", true, null];
 
-console.log(typeof arrc[0]);
-console.log(typeof arrc[1]);
-console.log(typeof arrc[2]);
-console.log(typeof arrc[3]);
-
-
-const matrix = [
-    [1, 2],
-    [3, 4],
-    [5, 6]
-];
-console.log(matrix[2][1]); // 6
-
-// # Create a 3×3 matrix
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-
-// # Print element at row index 1, column index 2
-print(matrix[1][2])
+// console.log(typeof arrc[0]);
+// console.log(typeof arrc[1]);
+// console.log(typeof arrc[2]);
+// console.log(typeof arrc[3]);
 
 
-const marks=[
-    [85, 90, 92], // Jenil
-    [70, 75, 80], // Arjun
-    [88, 82, 89]  // Krishna
-];
+// const matrix = [
+//     [1, 2],
+//     [3, 4],
+//     [5, 6]
+// ];
+// console.log(matrix[2][1]); // 6
 
-for (let i = 0; i < marks.length; i++) {
-    const studentMarks = marks[i];
-    const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
-    const avg = total / 3;
-    console.log("Student " + (i + 1) + " average: " + avg);
-}
+// // # Create a 3×3 matrix
+// matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
 
-const marks = [
-    [85, 90, 92], // Jenil
-    [70, 75, 80], // Arjun
-    [88, 82, 89]  // Krishna
-];
-marks.push([84,64,75])
-for (let i = 0; i < marks.length; i++) {
-    const studentMarks = marks[i];
-    const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
-    const avg = total / 3;
-    console.log("Student " + (i + 1) + " average: " + avg+"getting a total Marks"+total);
-}
+// // # Print element at row index 1, column index 2
+// print(matrix[1][2])
+
+
+// const marks=[
+//     [85, 90, 92], // Jenil
+//     [70, 75, 80], // Arjun
+//     [88, 82, 89]  // Krishna
+// ];
+
+// for (let i = 0; i < marks.length; i++) {
+//     const studentMarks = marks[i];
+//     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+//     const avg = total / 3;
+//     console.log("Student " + (i + 1) + " average: " + avg);
+// }
+
+// const marks = [
+//     [85, 90, 92], // Jenil
+//     [70, 75, 80], // Arjun
+//     [88, 82, 89]  // Krishna
+// ];
+// marks.push([84,64,75])
+// for (let i = 0; i < marks.length; i++) {
+//     const studentMarks = marks[i];
+//     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+//     const avg = total / 3;
+//     console.log("Student " + (i + 1) + " average: " + avg+"getting a total Marks"+total);
+// }
 
 // Create an array of 5 marks
 let markss = [85, 90, 75, 95, 80];
@@ -934,3 +934,7 @@ studentts.unshift("Krishna");
 
 // Display the updated array
 console.log(studentts);
+
+// const students = ["Jenil", "Mahir", "Priyesha"];
+// console.log(students[0]); // Jenil
+// console.log(students[2]); // Priyesha
