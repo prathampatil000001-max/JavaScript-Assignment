@@ -571,3 +571,24 @@ arr.push(30);
 
 console.log(arr);        // [10, 20, 30]
 console.log(arr.length); // 3
+
+let arrt = [];
+
+arrt.push(10);
+arrt.push(20);
+arrt.push(30);
+
+console.log(arrt);        // [10, 20, 30]
+console.log(arrt.length); // 3
+
+
+let numbers = [10, 20, 30, 40, 50];
+
+// Remove the last two elements
+let removed1 = numbers.pop();
+let removed2 = numbers.pop();
+
+// Print the modified array and removed values
+console.log("Modified Array:", numbers);
+console.log("First Removed Value:", removed1);
+console.log("Second Removed Value:", removed2);
