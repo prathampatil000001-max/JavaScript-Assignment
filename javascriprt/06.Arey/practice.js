@@ -940,6 +940,12 @@
 // console.log(students[2]); // Priyesha
 
 
-const arr =[10,20,30,40];
-console.log(arr.unshift(-5))
+// const arr =[10,20,30,40];
+// console.log(arr.unshift(-5))
+// console.log(arr)
+
+let arr=[10,20,30,10];
+
+console.log(arr.shift());
+console.log(arr.shift());
 console.log(arr)
