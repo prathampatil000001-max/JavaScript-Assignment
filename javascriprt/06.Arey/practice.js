@@ -944,9 +944,19 @@
 // console.log(arr.unshift(-5))
 // console.log(arr)
 
-let arr=[10,20,30,10];
+// let arr=[10,20,30,10];
 
-console.log(arr.shift());
-console.log(arr.shift());
-console.log(arr.shift());
-console.log(arr)
+// console.log(arr.shift());
+// console.log(arr.shift());
+// console.log(arr.shift());
+// console.log(arr)
+
+const arr =[10,20,30,40,50,30];
+console.log(arr.lastIndexOf(30));
+console.log(arr.lastIndexOf(20))
+
+let fruits = ["Banana", "Mango", "Orange"];
+
+fruits.unshift("Apple", "Grapes", "Pineapple");
+
+console.log(fruits);
