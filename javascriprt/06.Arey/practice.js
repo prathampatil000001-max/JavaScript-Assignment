@@ -948,4 +948,5 @@ let arr=[10,20,30,10];
 
 console.log(arr.shift());
 console.log(arr.shift());
+console.log(arr.shift());
 console.log(arr)
