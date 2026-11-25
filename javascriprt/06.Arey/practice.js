@@ -729,213 +729,217 @@
 //     }, 1000);
 // }
 
-// new Person();
+// // new Person();
 
-// const greet = (name = "Guest") => {
-//     console.log("Hello " + name);
-// };
+// // const greet = (name = "Guest") => {
+// //     console.log("Hello " + name);
+// // };
 
-// greet();      // Hello Guest
-// greet("Arjun"); // Hello Arjun
+// // greet();      // Hello Guest
+// // greet("Arjun"); // Hello Arjun
 
-// const greet = (name = "Guest") => {
-//     console.log("Hello " + name);
-// };
+// // const greet = (name = "Guest") => {
+// //     console.log("Hello " + name);
+// // };
 
-// greet();      // Hello Guest
-// greet("Arjun"); // Hello Arjun
-
-const students = ["Jenil", "Mahir", "Priyesha"];
-console.log(students[0]); // Jenil
-console.log(students[2]); // Priyesha
-
-let arr=[1,2,3,4,5,6,7,];
-console.log(arr.slice(1,6).arr)
-
-var nums = [10, 20, 30, 40, 50];
-var part = nums.slice(1, 4);
-console.log(part); // [20, 30, 40]
-console.log(nums); // Original stays same
-
-
-// 13. splice()
-// Modifies the array by removing or inserting elements.
-
-// var arre = [10, 20, 30, 40];
-// arre.splice(1, 2);
-// console.log(arre); // [10, 40]
-
-// var arrey = [1, 4, 5];
-// arrey.splice(1, 0, 2, 3);
-// console.log(arrey); // [1, 2, 3, 4, 5]
-
-// let nums = [1,2,3,4]
-// nums.push(5)
-// console.log(nums)
-// nums.unshift(0)
-// console.log(nums)
-
-let numst = [1, 2, 3, 4, 5];
-
-numst.unshift(0);
-
-console.log(numst);
-
-let arrh = [100, 200, 300, 400, 500];
-
-arrh.pop();
-
-console.log(arrh);
-
-let arrd = [100, 200, 300, 400, 500];
-
-arrd.shift();
-
-console.log(arrd);
-
-// const names = ["Jenil", "Mahir", "Arjun"];
-// console.log(names.indexOf("Mahir")); // 1
-// console.log(names.indexOf("Krishna")); // -1
-
-var arrj = [10, 20, 30, 40];
-arrj.splice(1, 2);
-console.log(arrj); // [10, 40]
-
-// Start with ["Jenil", "Mahir", "Arjun"]. Use splice() to insert "Krishna" between Jenil and Mahir
-// let arrj = ["Jenil", "Mahir", "Arjun"];
-
-// arrj.splice(1, 0, "Krishna");
-
-// console.log(arrj);
-
-
-let arrr = [10, 20, 30, 40, 50];
-
-arrr.splice(1, 2, 100);
-
-
-console.log(arrr);
-
-// let arrv = [10, 20, 30, 40, 50];
-
-// arrv.splice(1, 2, 100);
-
-// console.log(arrdv);
-
-// Convert an array of your 4 favorite movies into a string using toString() and print it.
-let movies = ["Avatar", "Titanic", "Inception", "Avengers"];
-
-let result = movies.toString();
-
-console.log(result);
-
-// How is toString() different from join()? Give one advantage of each.
-// let fruits = ["Apple", "Banana", "Mango"];
-
-// console.log(fruits.toString());
-
-// Create an array of 6 fruits. Find the index of a fruit that exists and one that does not exist using indexOf().
-
-// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple"];
-
-// console.log(fruits.indexOf("Mango"));
-// console.log(fruits.indexOf("Watermelon"));
-
-// What will indexOf() return if the element appears more than once? Write a short code to demonstrate.
-// let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
-
-// console.log(fruits.indexOf("Mango"));
-
-// let arrm = [100, "Hello", true, null];
-
-// console.log(arrm);
-
-// let arrc = [100, "Hello", true, null];
-
-// console.log(typeof arrc[0]);
-// console.log(typeof arrc[1]);
-// console.log(typeof arrc[2]);
-// console.log(typeof arrc[3]);
-
-
-// const matrix = [
-//     [1, 2],
-//     [3, 4],
-//     [5, 6]
-// ];
-// console.log(matrix[2][1]); // 6
-
-// // # Create a 3×3 matrix
-// matrix = [
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9]
-// ]
-
-// // # Print element at row index 1, column index 2
-// print(matrix[1][2])
-
-
-// const marks=[
-//     [85, 90, 92], // Jenil
-//     [70, 75, 80], // Arjun
-//     [88, 82, 89]  // Krishna
-// ];
-
-// for (let i = 0; i < marks.length; i++) {
-//     const studentMarks = marks[i];
-//     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
-//     const avg = total / 3;
-//     console.log("Student " + (i + 1) + " average: " + avg);
-// }
-
-// const marks = [
-//     [85, 90, 92], // Jenil
-//     [70, 75, 80], // Arjun
-//     [88, 82, 89]  // Krishna
-// ];
-// marks.push([84,64,75])
-// for (let i = 0; i < marks.length; i++) {
-//     const studentMarks = marks[i];
-//     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
-//     const avg = total / 3;
-//     console.log("Student " + (i + 1) + " average: " + avg+"getting a total Marks"+total);
-// }
-
-// Create an array of 5 marks
-let markss = [85, 90, 75, 95, 80];
-
-// Calculate highest and lowest marks
-let highest = Math.max(...markss);
-let lowest = Math.min(...markss);
-
-// Calculate sum
-let sum = 0;
-
-for (let i = 0; i < marks.length; i++) {
-    sum += markss[i];
-}
-
-// Calculate average
-let average = sum / markss.length;
-
-// Display results
-console.log("Highest Marks:", highest);
-console.log("Lowest Marks:", lowest);
-console.log("Sum of Marks:", sum);
-console.log("Average Marks:", average);
-
-
-// Create an array
-let studentts = ["Rahul", "Priya", "Amit", "Neha"];
-
-// Insert Krishna at the beginning
-studentts.unshift("Krishna");
-
-// Display the updated array
-console.log(studentts);
+// // greet();      // Hello Guest
+// // greet("Arjun"); // Hello Arjun
 
 // const students = ["Jenil", "Mahir", "Priyesha"];
 // console.log(students[0]); // Jenil
 // console.log(students[2]); // Priyesha
 
+// let arr=[1,2,3,4,5,6,7,];
+// console.log(arr.slice(1,6).arr)
+
+// var nums = [10, 20, 30, 40, 50];
+// var part = nums.slice(1, 4);
+// console.log(part); // [20, 30, 40]
+// console.log(nums); // Original stays same
+
+
+// // 13. splice()
+// // Modifies the array by removing or inserting elements.
+
+// // var arre = [10, 20, 30, 40];
+// // arre.splice(1, 2);
+// // console.log(arre); // [10, 40]
+
+// // var arrey = [1, 4, 5];
+// // arrey.splice(1, 0, 2, 3);
+// // console.log(arrey); // [1, 2, 3, 4, 5]
+
+// // let nums = [1,2,3,4]
+// // nums.push(5)
+// // console.log(nums)
+// // nums.unshift(0)
+// // console.log(nums)
+
+// let numst = [1, 2, 3, 4, 5];
+
+// numst.unshift(0);
+
+// console.log(numst);
+
+// let arrh = [100, 200, 300, 400, 500];
+
+// arrh.pop();
+
+// console.log(arrh);
+
+// let arrd = [100, 200, 300, 400, 500];
+
+// arrd.shift();
+
+// console.log(arrd);
+
+// // const names = ["Jenil", "Mahir", "Arjun"];
+// // console.log(names.indexOf("Mahir")); // 1
+// // console.log(names.indexOf("Krishna")); // -1
+
+// var arrj = [10, 20, 30, 40];
+// arrj.splice(1, 2);
+// console.log(arrj); // [10, 40]
+
+// // Start with ["Jenil", "Mahir", "Arjun"]. Use splice() to insert "Krishna" between Jenil and Mahir
+// // let arrj = ["Jenil", "Mahir", "Arjun"];
+
+// // arrj.splice(1, 0, "Krishna");
+
+// // console.log(arrj);
+
+
+// let arrr = [10, 20, 30, 40, 50];
+
+// arrr.splice(1, 2, 100);
+
+
+// console.log(arrr);
+
+// // let arrv = [10, 20, 30, 40, 50];
+
+// // arrv.splice(1, 2, 100);
+
+// // console.log(arrdv);
+
+// // Convert an array of your 4 favorite movies into a string using toString() and print it.
+// let movies = ["Avatar", "Titanic", "Inception", "Avengers"];
+
+// let result = movies.toString();
+
+// console.log(result);
+
+// // How is toString() different from join()? Give one advantage of each.
+// // let fruits = ["Apple", "Banana", "Mango"];
+
+// // console.log(fruits.toString());
+
+// // Create an array of 6 fruits. Find the index of a fruit that exists and one that does not exist using indexOf().
+
+// // let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Pineapple"];
+
+// // console.log(fruits.indexOf("Mango"));
+// // console.log(fruits.indexOf("Watermelon"));
+
+// // What will indexOf() return if the element appears more than once? Write a short code to demonstrate.
+// // let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
+
+// // console.log(fruits.indexOf("Mango"));
+
+// // let arrm = [100, "Hello", true, null];
+
+// // console.log(arrm);
+
+// // let arrc = [100, "Hello", true, null];
+
+// // console.log(typeof arrc[0]);
+// // console.log(typeof arrc[1]);
+// // console.log(typeof arrc[2]);
+// // console.log(typeof arrc[3]);
+
+
+// // const matrix = [
+// //     [1, 2],
+// //     [3, 4],
+// //     [5, 6]
+// // ];
+// // console.log(matrix[2][1]); // 6
+
+// // // # Create a 3×3 matrix
+// // matrix = [
+// //     [1, 2, 3],
+// //     [4, 5, 6],
+// //     [7, 8, 9]
+// // ]
+
+// // // # Print element at row index 1, column index 2
+// // print(matrix[1][2])
+
+
+// // const marks=[
+// //     [85, 90, 92], // Jenil
+// //     [70, 75, 80], // Arjun
+// //     [88, 82, 89]  // Krishna
+// // ];
+
+// // for (let i = 0; i < marks.length; i++) {
+// //     const studentMarks = marks[i];
+// //     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+// //     const avg = total / 3;
+// //     console.log("Student " + (i + 1) + " average: " + avg);
+// // }
+
+// // const marks = [
+// //     [85, 90, 92], // Jenil
+// //     [70, 75, 80], // Arjun
+// //     [88, 82, 89]  // Krishna
+// // ];
+// // marks.push([84,64,75])
+// // for (let i = 0; i < marks.length; i++) {
+// //     const studentMarks = marks[i];
+// //     const total = studentMarks[0] + studentMarks[1] + studentMarks[2];
+// //     const avg = total / 3;
+// //     console.log("Student " + (i + 1) + " average: " + avg+"getting a total Marks"+total);
+// // }
+
+// // Create an array of 5 marks
+// let markss = [85, 90, 75, 95, 80];
+
+// // Calculate highest and lowest marks
+// let highest = Math.max(...markss);
+// let lowest = Math.min(...markss);
+
+// // Calculate sum
+// let sum = 0;
+
+// for (let i = 0; i < marks.length; i++) {
+//     sum += markss[i];
+// }
+
+// // Calculate average
+// let average = sum / markss.length;
+
+// // Display results
+// console.log("Highest Marks:", highest);
+// console.log("Lowest Marks:", lowest);
+// console.log("Sum of Marks:", sum);
+// console.log("Average Marks:", average);
+
+
+// // Create an array
+// let studentts = ["Rahul", "Priya", "Amit", "Neha"];
+
+// // Insert Krishna at the beginning
+// studentts.unshift("Krishna");
+
+// // Display the updated array
+// console.log(studentts);
+
+// const students = ["Jenil", "Mahir", "Priyesha"];
+// console.log(students[0]); // Jenil
+// console.log(students[2]); // Priyesha
+
+
+const arr =[10,20,30,40];
+arr.unshift(-5)
+console.log(arr)
