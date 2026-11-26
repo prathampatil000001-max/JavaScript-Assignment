@@ -1065,3 +1065,18 @@ console.log("Original Array 2:", array2);
 let array3 = [7, 8, 9];
 let combinedArray2 = array1.concat(array2, array3);
 console.log("Combined Array 2:", combinedArray2);
+
+
+var arre = [1, 2, 3];
+console.log(arre.toString()); // "1,2,3"
+
+// Convert an array of your 4 favorite movies into a string using toString() and print it.
+let movies = ["3 Idiots", "Dangal", "KGF", "Pushpa"];
+
+let resultt = movies.toString();
+
+console.log(resultt);
+
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits.toString());
+console.log(fruits.join(" - "));
