@@ -1082,5 +1082,12 @@ console.log(fruits.toString());
 console.log(fruits.join(" - "));
 
 var arrtt = [1, 2, 3, 4];
-arrtt.fill(0);
+arrtt.fill(1000000);
 console.log(arrtt); // [0, 0, 0, 0]
+
+
+// Create an array of 6 numbers and fill the entire array with the value 10.
+
+let part=[1,1,1,1,1,1,];
+ let strrr=part.fill(400000);
+console.log(strrr)
