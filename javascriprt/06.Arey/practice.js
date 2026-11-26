@@ -1091,3 +1091,6 @@ console.log(arrtt); // [0, 0, 0, 0]
 let part=[1,1,1,1,1,1,];
  let strrr=part.fill(400000);
 console.log(strrr)
+
+let fog=[1,2,3,4,5,6,7,8,17];
+console.log(fog.slice(3,5))
