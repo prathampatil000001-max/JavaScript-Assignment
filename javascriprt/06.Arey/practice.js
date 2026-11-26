@@ -1080,3 +1080,7 @@ console.log(resultt);
 let fruits = ["Apple", "Banana", "Mango"];
 console.log(fruits.toString());
 console.log(fruits.join(" - "));
+
+var arrtt = [1, 2, 3, 4];
+arrtt.fill(0);
+console.log(arrtt); // [0, 0, 0, 0]
