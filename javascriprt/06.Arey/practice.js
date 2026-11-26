@@ -951,12 +951,86 @@
 // console.log(arr.shift());
 // console.log(arr)
 
-const arr =[10,20,30,40,50,30];
-console.log(arr.lastIndexOf(30));
-console.log(arr.lastIndexOf(20))
+// const arr =[10,20,30,40,50,30];
+// console.log(arr.lastIndexOf(30));
+// console.log(arr.lastIndexOf(20))
 
-let fruits = ["Banana", "Mango", "Orange"];
+// let fruits = ["Banana", "Mango", "Orange"];
 
-fruits.unshift("Apple", "Grapes", "Pineapple");
+// fruits.unshift("Apple", "Grapes", "Pineapple");
 
-console.log(fruits);
+// console.log(fruits);
+
+// let cities = ["Ahmedabad", "Mumbai", "Delhi", "Jaipur"];
+
+// let removedCity = cities.shift();
+// console.log("Removed City:", removedCity);
+
+// console.log("Remaining Cities:", cities);
+
+// let customers = ["Rahul", "Amit", "Priya"];
+
+// let servedCustomer = customers.shift();
+
+// console.log("Served:", servedCustomer);
+// console.log("Remaining:", customers);
+
+// let actions = ["Open File", "Edit File", "Save File"];
+
+// let undoAction = actions.pop();
+
+// console.log("Undo Action:", undoAction);
+// console.log("Remaining Actions:", actions);
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes", "Papaya"];
+
+// let result1 = fruits.indexOf("Mango");
+
+// let result2 = fruits.indexOf("Watermelon");
+
+// console.log("Index of Mango:", result1);
+// console.log("Index of Watermelon:", result2);
+
+// let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
+
+// // Find the index of Mango
+// let result = fruits.indexOf("Mango");
+
+// console.log("Index of Mango:", result);
+
+
+// let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange", "Mango"];
+
+// // Find the last occurrence of Mango
+// let result = fruits.lastIndexOf("Mango");
+
+// console.log("Last index of Mango:", result);
+
+// let fruits = ["Apple", "Mango", "Banana", "Mango", "Orange"];
+
+// console.log(fruits.indexOf("Mango"));
+
+// let friends = ["Rahul", "Amit", "Priya", "Neha"];
+
+// if (friends.includes("Priya")) {
+//     console.log("Name is present");
+// } else {
+//     console.log("Name is not present");
+// }
+
+// Sort an array of 5 student names alphabetically and print the result.
+let students = ["Rahul", "Amit", "Priya", "Neha", "Karan"];
+
+students.sort();
+
+console.log("Student names in alphabetical order:");
+
+console.log(students);
+
+// Create an array of numbers [40, 100, 5, 25] and sort it. Why is the result incorrect? Explain.
+
+let numbers = [40, 100, 5, 25];
+
+numbers.sort();
+
+console.log(numbers);
