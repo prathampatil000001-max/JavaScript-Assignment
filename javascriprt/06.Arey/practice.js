@@ -1044,6 +1044,24 @@ let str=arr.join("---");
 console.log(str)
 // Convert an array of 4 programming languages into a string separated by " | ".
 
-let languages=["Hindi","English","Geo","Math"];
-let strr=languages.join("|");
+let languages=["Hindi","English","Geo","Math----|"];
+let strr=languages.join("----|-----");
 console.log(strr)
+
+var arr1 = [1, 2];
+var arr2 = [3, 4];
+var result = arr1.concat(arr2);
+console.log(result); // [1, 2, 3, 4]
+
+// Create two arrays of numbers and combine them using concat(). Print the new array and both original arrays.
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let combinedArray = array1.concat(array2);
+console.log("Combined Array:", combinedArray);
+console.log("Original Array 1:", array1);
+console.log("Original Array 2:", array2);
+// Can you combine more than two arrays using a single concat() call? Write an example.
+
+let array3 = [7, 8, 9];
+let combinedArray2 = array1.concat(array2, array3);
+console.log("Combined Array 2:", combinedArray2);
