@@ -1040,5 +1040,5 @@ var s = subjects.join(" - ");
 console.log(s); // HTML - CSS - JavaScript
 
 const arr= [10 ,20,30,40];
-let str=arr.join("-");
+let str=arr.join("---");
 console.log(str)
