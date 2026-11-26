@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internal JS</title>
+</head>
+<body>
+  <h1 id="heading">Hello</h1>
+  <button id="btn">Click Me</button>
+
+  <script>
+    document.getElementById("btn").addEventListener("click", function() {
+      document.getElementById("heading").innerHTML = "Hello JavaScript!";
+      document.getElementById("heading").style.color = "blue";
+    });
+  </script>
+</body>
+</html>
