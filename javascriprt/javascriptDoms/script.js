@@ -10,7 +10,7 @@ btn1.addEventListener("click", function() {
 
 btn2.addEventListener("click", function() {
   heading.style.color = "crimson";
-  heading.style.backgroundColor = "#ffe6e6";
+  heading.style.backgroundColor = "#f30f0f";
 });
 
 btn3.addEventListener("click", function() {
