@@ -1042,3 +1042,8 @@ console.log(s); // HTML - CSS - JavaScript
 const arr= [10 ,20,30,40];
 let str=arr.join("---");
 console.log(str)
+// Convert an array of 4 programming languages into a string separated by " | ".
+
+let languages=["Hindi","English","Geo","Math"];
+let strr=languages.join("|");
+console.log(strr)
