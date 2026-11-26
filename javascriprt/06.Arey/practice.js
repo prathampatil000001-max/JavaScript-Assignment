@@ -1034,3 +1034,11 @@ let numbers = [40, 100, 5, 25];
 numbers.sort();
 
 console.log(numbers);
+
+var subjects = ["HTML", "CSS", "JavaScript"];
+var s = subjects.join(" - ");
+console.log(s); // HTML - CSS - JavaScript
+
+const arr= [10 ,20,30,40];
+let str=arr.join("-");
+console.log(str)
