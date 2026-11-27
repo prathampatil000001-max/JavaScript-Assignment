@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Internal JS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Input Example</title>
 </head>
 <body>
-  <h1 id="heading">Hello</h1>
-  <button id="btn">Click Me</button>
+
+  <label for="search">Search:</label>
+  <input type="text" id="search" placeholder="Type something and press Enter..." />
 
   <script>
-    document.getElementById("btn").addEventListener("click", function() {
-      document.getElementById("heading").innerHTML = "Hello JavaScript!";
-      document.getElementById("heading").style.color = "blue";
+    const input = document.querySelector("#search");
+
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        console.log("Searching for:", input.value);
+      }
     });
   </script>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Context Menu Example</title>
+</head>
+<body>
+
+  <h2>Right-Click Anywhere on This Page</h2>
+  <p>Page par right-click karne par default menu nahi khulega, balki alert dikhega.</p>
+
+  <script>
+    document.addEventListener("contextmenu", function (e) {
+      e.preventDefault(); // stop the default right-click menu
+      alert("Custom menu can be shown here");
+    });
+  </script>
+
 </body>
 </html>
