@@ -1093,6 +1093,16 @@ let part=[1,1,1,1,1,1,];
 console.log(strrr)
 
 let fog=[1,2,3,4,5,6,7,8,17];
-console.log(fog.slice(3,8))
+console.log(fog.splice(3,8))
 
 // ///////
+
+// const nums=[2,3,5,7,9,12,14,16,19];
+// nums.splice(4,4,11,13,17)
+// console.log(nums)
+
+let names = ["Jenil", "Mahir", "Arjun"];
+
+names.splice(1, 0, "Krishna");
+
+console.log(names);
