@@ -67,9 +67,21 @@ console.log(employee.introduce());
 
 // console.log(student)
 
-const student = new Object();
-student.name = "Rahul";
-student.age = 19;
-student.marks = 85;
+// const student = new Object();
+// student.name = "Rahul";
+// student.age = 19;
+// student.marks = 85;
 
-console.log(student)
+// console.log(student)
+
+function Student(name, age, marks) {
+    this.name = name;
+    this.age = age;
+    this.marks = marks;
+}
+
+const student1 = new Student("Priya", 18, 90);
+const student2 = new Student("John", 19, 87);
+
+console.log(student1);
+console.log(student2);
