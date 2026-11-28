@@ -13,7 +13,7 @@
   <script>
     const input = document.querySelector("#search");
 
-    input.addEventListener("keydown", function (e) {
+    input.addEventListener("keyup", function (e) {
       if (e.key === "Enter") {
         console.log("Searching for:", input.value);
       }
@@ -24,23 +24,30 @@
 </html>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Context Menu Example</title>
+  <title>Phone Number Input Example</title>
 </head>
 <body>
 
-  <h2>Right-Click Anywhere on This Page</h2>
-  <p>Page par right-click karne par default menu nahi khulega, balki alert dikhega.</p>
+  <label for="phone">Phone Number:</label>
+  <input type="text" id="phone" placeholder="Sirf numbers likhein..." inputmode="numeric" />
 
   <script>
-    document.addEventListener("contextmenu", function (e) {
-      e.preventDefault(); // stop the default right-click menu
-      alert("Custom menu can be shown here");
+    const phoneInput = document.querySelector("#phone");
+
+    phoneInput.addEventListener("keydown", function (e) {
+      // Allow backspace, delete, arrows, etc.
+      if (["Backspace", "Delete", "ArrowLeft", "ArrowRight", "Tab"].includes(e.key)) {
+        return;
+      }
+      // Block if not a number
+      if (!/^\d$/.test(e.key)) {
+        e.preventDefault();
+      }
     });
   </script>
 
