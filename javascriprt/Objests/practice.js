@@ -43,3 +43,17 @@ const employee = {
 
 console.log(employee);
 console.log(employee.introduce());
+
+// const student = {
+//     name: "Michael",
+//     age: 18,
+//     marks: 88
+// };
+// console.log (student)
+
+const student = {
+    name :"Michel",
+    age :18,
+    Marks:37
+};
+console.log(student)
