@@ -59,10 +59,17 @@ console.log(employee.introduce());
 // console.log(student)
 
 
-const student = {
-    name: "Pratham patil ",
-    age: 18,
-    marks: 92
-};
+// const student = {
+//     name: "Pratham patil ",
+//     age: 18,
+//     marks: 92
+// };
+
+// console.log(student)
+
+const student = new Object();
+student.name = "Rahul";
+student.age = 19;
+student.marks = 85;
 
 console.log(student)
