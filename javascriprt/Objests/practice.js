@@ -74,14 +74,25 @@ console.log(employee.introduce());
 
 // console.log(student)
 
-function Student(name, age, marks) {
-    this.name = name;
-    this.age = age;
-    this.marks = marks;
-}
+// function Student(name, age, marks) {
+//     this.name = name;
+//     this.age = age;
+//     this.marks = marks;
+// }
 
-const student1 = new Student("Priya", 18, 90);
-const student2 = new Student("John", 19, 87);
+// const student1 = new Student("Priya", 18, 90);
+// const student2 = new Student("John", 19, 87);
+
+// console.log(student1);
+// console.log(student2);
+
+function Student( name,age,marks){
+      this.name+name;
+      this.age=age;
+      this.marks=marks;
+};
+const student1=new Student("Ram",16,67)
+const student2=new Student("Pratham",19,99)
 
 console.log(student1);
 console.log(student2);
