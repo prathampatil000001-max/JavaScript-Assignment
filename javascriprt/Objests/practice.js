@@ -108,3 +108,9 @@ const book2 = new Book("To Kill a Mockingbird", "Harper Lee");
 
 console.log(book1);
 console.log(book2);
+
+let student=new Object()
+student.name="Arnav";
+student.age=22;
+student.course="CSE"
+console.log(student)
