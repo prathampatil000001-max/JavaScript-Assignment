@@ -25,3 +25,21 @@ const car = {
 };
 
 console.log(car);
+
+// Create one object named employee that uses all of the following value types: a string, a number, a boolean, an array, a nested object, and a method. Print the object and also call the method.
+const employee = {
+    name: "Alice",
+    age: 30,
+    isManager: true,
+    skills: ["JavaScript", "Python"],
+    contact: {
+        email: "alice@example.com",
+        phone: "123-456-7890"
+    },
+    introduce: function() {
+        return "Hi, I'm " + this.name + ", and I'm a " + (this.isManager ? "manager" : "developer") + ".";
+    }
+};
+
+console.log(employee);
+console.log(employee.introduce());
