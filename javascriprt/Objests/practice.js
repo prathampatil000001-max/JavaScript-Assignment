@@ -51,9 +51,18 @@ console.log(employee.introduce());
 // };
 // console.log (student)
 
+// const student = {
+//     name :"Michel",
+//     age :18,
+//     Marks:37
+// };
+// console.log(student)
+
+
 const student = {
-    name :"Michel",
-    age :18,
-    Marks:37
+    name: "Pratham patil ",
+    age: 18,
+    marks: 92
 };
+
 console.log(student)
