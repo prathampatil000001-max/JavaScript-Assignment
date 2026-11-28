@@ -96,3 +96,15 @@ const student2=new Student("Pratham",19,99)
 
 console.log(student1);
 console.log(student2);
+
+// Create a constructor function named Book that accepts two parameters: title and author. Using this constructor, create two book objects and print both objects.
+function Book(title, author) {  
+    this.title = title;
+    this.author = author;
+}
+
+const book1 = new Book("1984", "George Orwell");
+const book2 = new Book("To Kill a Mockingbird", "Harper Lee");
+
+console.log(book1);
+console.log(book2);
